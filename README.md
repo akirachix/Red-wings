@@ -12,4 +12,4 @@ Blood Donor Management System
 #### How might we assist blood donor organization improve blood donor management process inorder to efficiently determine elegibility?
 
 # Inspiration
-###### The difficulties that blood donor organizations face in connecting blood donors and available blood appeals, particularly in times of emergency, are incredibly exhausting. This has inspired us to develop a management system that assists blood donor organizations in improving the donor management process in order to determine eligibility more efficiently.
+#### The difficulties that blood donor organizations face in connecting blood donors and available blood appeals, particularly in times of emergency, are incredibly exhausting. This has inspired us to develop a management system that assists blood donor organizations in improving the donor management process in order to determine eligibility more efficiently.
