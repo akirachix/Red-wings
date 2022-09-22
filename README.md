@@ -10,7 +10,7 @@
 
 # Inspiration
 #### “Sometimes money cannot save life but donated blood can!”
-The direct contact donor and the recipient is not offered by many of the blood banks.This is critical when there is an emergency in need of blood. 
+Direct contact of blood donor and the recipient is not offered by many of the blood banks.This is critical when there is an emergency in need of blood. 
 The difficulties that blood donor organizations face in connecting blood donors and available blood appeals, particularly in times of emergency, are incredibly exhausting. This has inspired us to develop a management system that assists blood donor organizations in improving the donor management process in order to determine eligibility more efficiently.
 
 # Problem
