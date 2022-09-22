@@ -9,9 +9,12 @@
 
 
 # Inspiration
-#### “Sometimes money cannot save life but donated blood can!”
+##### “Sometimes money cannot save life but donated blood can!”
 Direct contact of blood donor and the recipient is not offered by many of the blood banks.This is critical when there is an emergency in need of blood. 
-The difficulties that blood donor organizations face in connecting blood donors and available blood appeals, particularly in times of emergency, are incredibly exhausting. This has inspired us to develop a management system that assists blood donor organizations in improving the donor management process in order to determine eligibility more efficiently.
+Blood donor organizations face difficulties in connecting blood donors and available blood appeals. Particularly in times of emergency, are incredibly exhausting. As a result, we were motivated to create a management system that aids blood donation organizations in streamlining the donor management procedure in order to more quickly ascertain eligibility.
+
+# Project Description
+The Blood Donor Management system (BDMS) which a web based application, helps to manage the record of donors.The project will provide a direct link between the donor and the recipient. Through web interface a blood bank database is created. In a central server the collected data of a donor is stored. Notification is send to the donor via text message by using bulk message dispatch technique for providing the communication between the donor and the organization. The recipient can also contact the donor with the help of the contact details available or use hashtags. Blood donors can also be searched from the application, it is accessible only for registered members. The focus is to find elegible blood donors in an emergency situation and to provide direct link between the donor and the recipient.
 
 # Problem
 #### How might we assist blood donor organization improve blood donor management process inorder to efficiently determine elegibility?
