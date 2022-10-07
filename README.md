@@ -1,20 +1,70 @@
-# Red-wings
-## Blood Donor Management System
-# Group Members
- 1. **Kishoiyan Charity**
- 2. **Lucy Karimi**
- 3. **Joyce Nkimalantoi**
- 4. **Gumato Roba**
- 5. **Niwenyesiga Speria**
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Inspiration
-##### “Sometimes money cannot save life but donated blood can!”
-Direct contact of blood donor and the recipient is not offered by many of the blood banks.This is critical when there is an emergency in need of blood. 
-Blood donor organizations face difficulties in connecting blood donors and available blood appeals. Particularly in times of emergency, are incredibly exhausting. As a result, we were motivated to create a management system that aids blood donation organizations in streamlining the donor management procedure in order to more quickly ascertain eligibility.
+## Available Scripts
 
-# Project Description
-The Blood Donor Management system (BDMS) which a web based application, helps to manage the record of donors.The project will provide a direct link between the donor and the recipient. Through web interface a blood bank database is created. In a central server the collected data of a donor is stored. Notification is send to the donor via text message by using bulk message dispatch technique for providing the communication between the donor and the organization. The recipient can also contact the donor with the help of the contact details available or use hashtags. Blood donors can also be searched from the application, it is accessible only for registered members. The focus is to find elegible blood donors in an emergency situation and to provide direct link between the donor and the recipient.
+In the project directory, you can run:
 
-# Problem
-#### How might we assist blood donor organization improve blood donor management process inorder to efficiently determine elegibility?
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
