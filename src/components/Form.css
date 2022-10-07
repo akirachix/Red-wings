@@ -1,0 +1,87 @@
+body{
+    background-color: aliceblue;
+}
+.Form {
+   
+    /* justify-items: center; */
+    margin-left:38%;
+    margin-right: 30%;
+    background-color: rgb(223, 175, 175);
+    border-radius:10px;
+    /* background-blend-mode: color ; */
+    padding:20px;
+    margin-top: 80px;
+    width: 400px;
+    height: 260px;
+
+    
+    /* margin-bottom: 10%; */
+    
+}
+
+
+.Form label{
+     color: rgb(44, 38, 38);
+     text-align: center;
+     margin-left:2%;
+     font-size:20px; 
+     /* margin-top: 10%; */
+
+}
+.Form input{
+    width:50%;
+    padding:12px;
+    border-radius:5px;
+    border-style: none;
+    margin-left:5%;
+}
+
+.Form button{
+    margin-left:10%;
+    padding:5px;
+    width:30%;
+    font-size:18px;
+    font-weight: 50;
+}
+.logo{
+    /* margin-top: -13.5%; */
+    margin-right: 73%;
+    margin-top: -30%;
+    /* heig ht: 300px; */
+    /* margin-left: 1.8%; */
+    /* width: 390px; */
+    /* background-color:#ffff; */
+    /* border-radius:5px black; */
+    /* padding:0px; */
+   
+}
+.perso{
+    /* margin-top: -39.5%; */
+    margin-left: 197%;
+    margin-top: -83%
+
+    /* color: rgb(159, 159, 170); */
+  
+
+}
+.password{
+    margin-left: 290%;
+    margin-top: 10%;
+
+ }
+ .keys{
+    margin-left: 200%;
+    margin-top: -16%;
+}
+
+.Login{
+    height: 302px;
+    margin-left: 15%;
+    width: 750px;
+    background-color:#ffff;
+    border-radius: 15px;
+
+
+  
+
+ }
