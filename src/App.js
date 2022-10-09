@@ -1,16 +1,19 @@
-import './App.css'
-import MainDash from './components/MainDash/MainDash';
-// import RightSide from './components/RigtSide/RightSide';
+// import logo from './logo.svg';
+import './App.css';
+import Form from './components/Form'
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <div className="AppGlass">
-        <Sidebar/>
-        <MainDash/>
-        {/* <RightSide/> */}
-      </div>
+      {/* <Form/> */}
+       {/* <Sidebar/> */}
+      <Router>
+        <Routes>
+     <Route exact path ='/' element={<Form/>} component={<Form/>} />
+      </Routes>
+    </Router>
     </div>
   );
 }
