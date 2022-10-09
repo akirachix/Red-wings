@@ -2,12 +2,13 @@
 import './App.css';
 import Form from './components/Form'
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
       {/* <Form/> */}
-
+       {/* <Sidebar/> */}
       <Router>
         <Routes>
      <Route exact path ='/' element={<Form/>} component={<Form/>} />
