@@ -21,11 +21,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-9$_rllnvjkl@cglmg53b*9(q4s14atzrc@@xoxi=+e#*1c9rz('
+SECRET_KEY = 'ngrok config add-authtoken 2FrA2BDX9LbtOwGwiR7QoMMxOQq_5B7wroP9yD5G3hHqPQFf9'
+
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '54cb-197-232-143-191.eu.ngrok.io',
+    '127.0.0.1'
+ ]
 
 
 # Application definition
@@ -38,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blooddonation',
+    'SMSapp',
 ]
 
 MIDDLEWARE = [
