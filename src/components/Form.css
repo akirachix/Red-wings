@@ -57,21 +57,25 @@ body{
 }
 .perso{
     /* margin-top: -39.5%; */
-    margin-left: 197%;
-    margin-top: -83%
+    margin-left: 43%;
+    margin-top: -7%;
+   
+    /* position: fixed;  */
 
     /* color: rgb(159, 159, 170); */
   
 
 }
 .password{
-    margin-left: 290%;
-    margin-top: 10%;
+    margin-left: 67%;
+    margin-top: 3%;
+  
 
  }
  .keys{
-    margin-left: 200%;
-    margin-top: -16%;
+    margin-left: 43.5%;
+    margin-top: -4%;
+   
 }
 
 .Login{
