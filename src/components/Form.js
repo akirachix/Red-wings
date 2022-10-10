@@ -47,11 +47,11 @@ const Form = () => {
     <div className="Login"  >
       <form className="Form" onSubmit={handleSubmit} >
          <label for="userName">UserName</label> <br></br>
-         <input type="text" name="username" id="username" placeholder="      wanadamu" required  onChange={(e)=>
+         <input type="text" name="username" id="username" placeholder="               wanadamu" required  onChange={(e)=>
           {setName(e.target.value)}}></input> <br></br>
   
          <label for="Password">Password</label> <br></br>
-         <input type="password" name="password" id="password" placeholder="    ..........." required onChange={(e)=>
+         <input type="password" name="password" id="password" placeholder="          ..........." required onChange={(e)=>
           {setPassword(e.target.value)}} ></input> <br></br> <br></br>
 
 <button className="login">Login</button>

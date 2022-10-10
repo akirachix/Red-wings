@@ -12,6 +12,8 @@ function App() {
       <Router>
         <Routes>
      <Route exact path ='/' element={<Form/>} component={<Form/>} />
+     <Route exact path ='/sidebar' element={<Sidebar/>} component={<Sidebar/>} />
+
       </Routes>
     </Router>
     </div>
