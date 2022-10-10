@@ -4,12 +4,9 @@ import { UilSignOutAlt } from "@iconscout/react-unicons";
 import { SidebarData } from "../Data/Data";
 import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
-
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
-
   const [expanded, setExpaned] = useState(true)
-
   const sidebarVariants = {
     true: {
       left : '0'
@@ -34,7 +31,6 @@ const Sidebar = () => {
           Red<span>-Wings</span>
         </span>
       </div>
-
       <div className="menu">
         {SidebarData.map((item, index) => {
           return (
@@ -57,5 +53,4 @@ const Sidebar = () => {
     </>
   );
 };
-
 export default Sidebar;

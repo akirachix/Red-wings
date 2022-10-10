@@ -59,8 +59,8 @@ const Form = () => {
 
 
  <div className="logo">
-      <img src={logoo} className='Image' alt='logoo'/> 
-      </div>
+      <img src={logoo} className='logg' alt='logoo' style={{height:"80px"}}/> 
+  </div>
       
       <div
        className="perso">
