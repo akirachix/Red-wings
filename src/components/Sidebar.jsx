@@ -36,6 +36,7 @@ const Sidebar = () => {
       </div>
 
       <div className="menu">
+        
         {SidebarData.map((item, index) => {
           return (
             <div
@@ -43,12 +44,19 @@ const Sidebar = () => {
               key={index}
               onClick={() => setSelected(index)}
             >
+            <a href={item.path}  style={{textDecoration:"none"}} > 
               <item.icon />
               <span>{item.heading}</span>
+              
+            </a>
+         
+          
+
             </div>
+           
           );
         })}
-        {/* signoutIcon */}
+      
         <div className="menuItem">
           <UilSignOutAlt />
         </div>

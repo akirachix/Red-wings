@@ -15,19 +15,25 @@ import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
 export const SidebarData = [
   {
     icon: UilEstate,
-    heading: "Dashboard",
+    heading: "Dashboard", 
+    path:"/"
   },
+
+  
   {
     icon: UilClipboardAlt,
     heading: "Donors",
+    path:"/donors"
   },
   {
     icon: UilUsersAlt,
     heading: "Blood requests",
+    path:"/requests"
   },
   {
     icon: UilPackage,
-    heading: 'Profile'
+    heading: 'Profile',
+    path:"/profile"
   },
  
 ];
