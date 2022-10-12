@@ -17,13 +17,14 @@ export const SidebarData = [
     icon: UilEstate,
     heading: "Dashboard",
   },
+ 
   {
-    icon: UilClipboardAlt,
+    icon: UilUsersAlt,
     heading: "Donors",
   },
   {
-    icon: UilUsersAlt,
-    heading: "Blood requests",
+    icon: UilClipboardAlt,
+    heading: "Blood Requests",
   },
   {
     icon: UilPackage,
@@ -46,7 +47,7 @@ export const cardsData = [
     series: [
       {
         name: "request",
-        data: [31, 40, 28, 51, 42, 109, 100],
+        data: [2, 5, 10, 40, 0, 5, 12, 25, 50, 100, 56, 0],
       },
     ],
   },
@@ -62,7 +63,7 @@ export const cardsData = [
     series: [
       {
         name: "Donors",
-        data: [10, 100, 50, 70, 80, 30, 40],
+        data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
       },
     ],
   },
