@@ -8,22 +8,17 @@ def index(request):
     if request.method == 'POST':
         session_id = request.POST.get('sessionId')
         service_code = request.POST.get('ShortCode')
-        admission_number = request.POST.get('phoneNumber')
+        admission_number = request.POST.get('phone_number')
         text = request.POST.get('text')
         response = ""
         if text == "":
-            response = "hello donor, are you available to donate at hospital B"
+            response = "Welcome to wanadamu blood donation organisation"
             # response .= "1. My Account \n"
-            response += "PhoneNumber"
+            response += "My Phone_Number"
         elif text == "":
-            response = "END My Admission number is {0}".format(phone_number)
+            response = "END My phone_number is {0}".format(admission_number)
         return HttpResponse(response)
     return HttpResponse({"message": "this method requires a POST request"})
 
 
-
-
-
-
-
-
+    
