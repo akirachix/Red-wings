@@ -1,9 +1,10 @@
 .profile{
-    background-color: rgb(220, 197, 243);
+    background-color: rgb(204, 190, 218);
     width: 1050px;
     height: 400px;
     margin-top: 14%;
     border-radius: 20px;
+    stroke: none;
   
 }
 .head{
