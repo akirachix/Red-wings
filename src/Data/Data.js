@@ -18,15 +18,17 @@ export const SidebarData = [
     heading: "Dashboard", 
     path:"/"
   },
- 
+
+  
   {
-    icon: UilUsersAlt,
+    icon: UilClipboardAlt,
     heading: "Donors",
     path:"/donors"
   },
   {
-    icon: UilClipboardAlt,
-    heading: "Blood Requests",
+    icon: UilUsersAlt,
+    heading: "Blood requests",
+    path:"/requests"
   },
   {
     icon: UilPackage,
@@ -50,7 +52,7 @@ export const cardsData = [
     series: [
       {
         name: "request",
-        data: [2, 5, 10, 40, 0, 5, 12, 25, 50, 100, 56, 0],
+        data: [31, 40, 28, 51, 42, 109, 100],
       },
     ],
   },
@@ -66,7 +68,7 @@ export const cardsData = [
     series: [
       {
         name: "Donors",
-        data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+        data: [10, 100, 50, 70, 80, 30, 40],
       },
     ],
   },
