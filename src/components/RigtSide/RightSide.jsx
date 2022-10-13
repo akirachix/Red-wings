@@ -1,4 +1,3 @@
-
 import "./RightSide.css";
 
 const RightSide = () => {
