@@ -9,7 +9,6 @@ const RightSide = () => {
      <iframe width="300" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=karen&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
      <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
        {/* <button type="submit" onSubmit>Send Request</button>               */}
-
      </div>
   </div>
   );
