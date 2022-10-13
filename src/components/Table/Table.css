@@ -1,5 +1,6 @@
 .MuiTableRow-root > * {
   padding: 10px;
+  border-radius: 10%;
 }
 
 .MuiTableRow-root.MuiTableRow-head > * {
@@ -8,15 +9,15 @@
 
 .Table td,
 th {
-  border: none !important;
+  border: 30%;
 }
 React-Dashboard
 .Table:first-child {
-  border-radius: 0.7rem !important;
+  border: 30%;
 }
 .status {
   padding: 8px;
-  border-radius: 9px;
+  border: 10%;
 }
 
 .Details {
@@ -37,6 +38,7 @@ React-Dashboard
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 23rem;
+    width: 20rem;
+    border-radius: 10%;
   }
 }
