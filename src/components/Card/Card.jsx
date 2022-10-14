@@ -15,7 +15,7 @@ const Card = (props) => {
       {expanded ? (
         <ExpandedCard param={props} setExpanded={() => setExpanded(false)} />
       ) : (
-        <CompactCard param={props} setExpanded={() => setExpanded(false)} />
+        <CompactCard param={props} setExpanded={() => setExpanded(true)} />
       )}
     </AnimateSharedLayout>
   );
@@ -42,7 +42,7 @@ function CompactCard({ param, setExpanded }) {
         <span>{param.title}</span>
       </div>
       <div className="detail">
-        <Png />
+        {/* <Png /> */}
         <span>{param.value}</span>
         <span>Total 200</span>
       </div>
@@ -82,7 +82,7 @@ function ExpandedCard({ param, setExpanded }) {
       },
       tooltip: {
         x: {
-          format: "dd/MM/yy HH:mm",
+          format: "dd/MM/yy",
         },
       },
       grid: {
@@ -91,13 +91,13 @@ function ExpandedCard({ param, setExpanded }) {
       xaxis: {
         type: "datetime",
         categories: [
-          "2018-09-19T00:00:00.000Z",
-          "2018-09-19T01:30:00.000Z",
-          "2018-09-19T02:30:00.000Z",
-          "2018-09-19T03:30:00.000Z",
-          "2018-09-19T04:30:00.000Z",
-          "2018-09-19T05:30:00.000Z",
-          "2018-09-19T06:30:00.000Z",
+          "2022-12-19",
+          "2022-03-19",
+          "2022-09-19",
+          "2022-02-19",
+          "2022-06-19",
+          "2022-10-19",
+          "2022-09-19",
         ],
       },
     },
