@@ -1,10 +1,10 @@
-// Sidebar imports
+
 import {
   UilEstate,
   UilClipboardAlt,
   UilUsersAlt,
   UilPackage,
-  // UilChart,
+  
   
 } from "@iconscout/react-unicons";
 
@@ -34,6 +34,11 @@ export const SidebarData = [
     heading: 'Profile',
     path:"/profile"
   },
+  // {
+  //   icon: UilUsersAlt,
+  //   heading: "User",
+  //   path:"/user"
+  // },
  
 ];
 
