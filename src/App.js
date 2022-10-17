@@ -3,6 +3,11 @@ import './App.css'
 import MainDash from './components/MainDash/MainDash';
 import Sidebar from './components/Sidebar';
 import Profile from './Profile/profile';
+// import Request from './Request/request';
+import Request from './Request/request'
+import Donors from './Donors/Donors';
+
+
 
 
 function App() {
@@ -14,9 +19,13 @@ function App() {
 
         <Routes>
           <Route path="/profile" element={<Profile />}/>
+
           <Route path="/" element={  <MainDash />}/>
-         
-      
+          <Route path="/request" element={<Request/>}/>
+          <Route path="/donors" element={<Donors/>}/>
+
+
+        
           </Routes> 
       </div>
     </div>

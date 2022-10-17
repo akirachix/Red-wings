@@ -1,3 +1,5 @@
+import { IndividualData } from "./IndividualData";
+
 // Sidebar imports
 import {
   UilEstate,
@@ -28,7 +30,7 @@ export const SidebarData = [
   {
     icon: UilUsersAlt,
     heading: "Blood requests",
-    path:"/requests"
+    path:"/request"
   },
   {
     icon: UilPackage,
@@ -74,6 +76,15 @@ export const cardsData = [
   },
 
 ];
+
+
+export const Data = ({excelData}) => {
+  return excelData.map((individualExcelData)=>(
+      <tr key={individualExcelData.Id}>
+          <IndividualData individualExcelData={individualExcelData}/>
+      </tr>
+  ))
+}
 
 
 
