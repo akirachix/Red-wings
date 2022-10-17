@@ -22,6 +22,7 @@ td {
 }
 td {
     color: #444444;
+    font-family: sans-serif;
     border: 1px solid rgb(22, 21, 21);
     text-align: left;
     padding: 5px;
@@ -31,13 +32,13 @@ table {
     width: 40%;
     border-collapse: collapse;
     height: 40px;
+    margin-top: 1%;
     align-items: center;
     /* margin-right: 10%; */
-    /* margin-top: 20%; */
 }
 input{
     height: 30px;
-    width: 40%;
+    width: 400%;
     border-radius: 10px;
 }
 th {
@@ -47,7 +48,7 @@ th {
     background-color: #ddd;
 }
 #Donors p{
-    margin-top: 30px;
+    margin-top: 300px;
     padding-right: 20%;
 }
 #Donors tr:nth-child(even) {

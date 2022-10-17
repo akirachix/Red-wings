@@ -3,10 +3,10 @@ import './App.css'
 import MainDash from './components/MainDash/MainDash';
 import Sidebar from './components/Sidebar';
 import Profile from './Profile/profile';
-// import Request from './Request/request';
-import Request from './Request/request'
+import Request from './Request/request';
 import Donors from './Donors/Donors';
 
+// import RightSide from './components/RigtSide/RightSide';
 
 
 
@@ -15,11 +15,13 @@ function App() {
     <div className="App">
       <div className="AppGlass">
         <Sidebar/>
-        
+        {/* <MainDash/> */}
+        {/* <RightSide/> */}
+        {/* <Profile/> */}
 
         <Routes>
-          <Route path="/profile" element={<Profile />}/>
 
+          <Route path="/profile" element={<Profile />}/>
           <Route path="/" element={  <MainDash />}/>
           <Route path="/request" element={<Request/>}/>
           <Route path="/donors" element={<Donors/>}/>
@@ -33,3 +35,5 @@ function App() {
 }
 
 export default App;
+
+

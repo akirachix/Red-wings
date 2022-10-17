@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     /* margin-top: -25%; */
   }
   table th,
@@ -12,6 +13,7 @@
     margin-left: 10%;
     border-collapse: collapse;
     width: 100%;
+    
   }
   td {
     color: #444444;
@@ -19,12 +21,15 @@
     text-align: left;
     padding: 50px;
     font-size: 15px;
+    
   }
   table {
     width: 40%;
     border-collapse: collapse;
     height: 40px;
     margin-right: 15%;
+    margin-top: 20%;
+
   }
   th {
     background-color: #FAC1C4;

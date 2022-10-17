@@ -7,9 +7,11 @@
   padding: 1rem;
   position: relative;
   cursor: pointer;
+  
 }
 .CompactCard:hover {
   box-shadow: none !important;
+  
 }
 
 /* radial bar */
@@ -23,6 +25,7 @@
 .CircularProgressbar {
   width: 4rem !important;
   overflow: visible;
+  
 }
 .CircularProgressbar-path {
   stroke: white !important;
@@ -38,11 +41,14 @@
 
 .radialBar > span {
   font-size: 17px;
+  
   font-weight: bold;
 }
 
 /* sideDetail*/
 .detail {
+  font-weight: 800;
+  font-size: 30px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -52,10 +58,14 @@
 
 .detail > span:nth-child(2) {
   font-size: 22px;
+  
   font-weight: bold;
 }
 .detail > span:nth-child(3) {
   font-size: 12px;
+}
+.Table{
+  margin-top: -26%;
 }
 
 /* ExpandedCard */
