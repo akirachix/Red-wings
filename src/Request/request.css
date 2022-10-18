@@ -1,0 +1,45 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  table th, td  {
+    border: 1px solid;
+    padding: 50px;
+    margin-left: 10%;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td{
+    color: #444444;
+    border: 1px solid rgb(22, 21, 21);
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+}
+  table {
+    width: 40%;
+    border-collapse: collapse;
+    height: 40px;
+    margin-right: 15%;
+  }
+  th{
+    background-color: #FAC1C4;
+  }
+  #Bloodrequest{
+    background-color: #ddd;
+  }
+  #Bloodrequest tr:nth-child(even){background-color: #ffff;}
+  #Bloodrequest tr:hover {background-color: rgb(27, 185, 27);}
+.head{
+  margin-top: -45%;
+}
+.head h1{
+  /* margin-left:100% ; */
+  font-size: 20px;
+  color: red;
+  margin-top: -60%;
+  margin-left: 70%;
+}
