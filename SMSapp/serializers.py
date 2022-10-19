@@ -15,8 +15,8 @@ class SMS:
         # starting with what you currently believe is the lastReceivedId.
 		# Specify 0 for the first time you access the method
         # and the ID of the last message we sent you on subsequent calls
-        try:
-            last_received_id = 0;
+        # try:
+            last_received_id = 0
 			# Fetch all messages using a loop
             while True:
                 MessageData = self.sms.fetch_messages(last_received_id)
