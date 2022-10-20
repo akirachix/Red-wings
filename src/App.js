@@ -6,7 +6,7 @@ import Profile from './Profile/profile';
 import Request from './Request/request';
 import Donors from './Donors/Donors';
 
-// import RightSide from './components/RigtSide/RightSide';
+import RightSide from './components/RigtSide/RightSide';
 
 
 
@@ -15,9 +15,7 @@ function App() {
     <div className="App">
       <div className="AppGlass">
         <Sidebar/>
-        {/* <MainDash/> */}
-        {/* <RightSide/> */}
-        {/* <Profile/> */}
+        
 
         <Routes>
 
@@ -25,10 +23,9 @@ function App() {
           <Route path="/" element={  <MainDash />}/>
           <Route path="/request" element={<Request/>}/>
           <Route path="/donors" element={<Donors/>}/>
-
-
-        
           </Routes> 
+          <RightSide/>
+
       </div>
     </div>
   );

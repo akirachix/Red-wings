@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     
-    /* margin-top: -25%; */
   }
   table th,
   td {
@@ -19,12 +18,16 @@
     color: #444444;
     border: 1px solid rgb(22, 21, 21);
     text-align: left;
+    margin-top: -20%;
+
     padding: 50px;
     font-size: 15px;
     
   }
   table {
     width: 40%;
+  
+
     border-collapse: collapse;
     height: 40px;
     margin-right: 15%;
@@ -45,6 +48,8 @@
   }
   .head {
     margin-top: -45%;
+    margin-top: -12%;
+
   }
   .head h1 {
     margin-left: 100%;

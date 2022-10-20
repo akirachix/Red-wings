@@ -26,18 +26,20 @@ const rows = [
 ];
 
 
+
 export default function BasicTable() {
   return (
       <div className="Table">
-      <h3>Recent Donors</h3>
+      <h3>.</h3>
         <TableContainer
           component={Paper}
           style={{ boxShadow: "0px 13px 20px 0px #80808029" }}
         >
+          
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
               <TableRow>
-                <TableCell>Name</TableCell>
+                <TableCell>Recent Donors Names</TableCell>
                 <TableCell align="left">Location</TableCell>
                 <TableCell align="left">Date</TableCell>
                 <TableCell align="left">Blood_type</TableCell>

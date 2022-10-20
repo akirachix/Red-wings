@@ -2,7 +2,12 @@ import "./profile.css";
 
 
 const Profile= ()=>{
+    const random=parseInt[Math.random]
     return(
+        // const onEditPhone(record)=>{
+
+        // }
+        
         
 
         
@@ -16,11 +21,16 @@ const Profile= ()=>{
                     <img src="/images/sttings.png"className="set" alt=""/>
                     </div>
                     <div className="prof">
-                    <img src="/images/prof.png"className="pro" alt=" http://localhost:3006/profile"/>
+                    <img src="/images/prof.png"className="pro" alt=""/>
                     </div>
-                <h2>Donors</h2>
-                <p>Admin Profile</p>
+                <h2>Admin Profile</h2>
+                <p>.</p>
             </div>
+            
+
+
+
+
             
             <img src="/images/wana.png"className="wana" alt=""/>
 
@@ -29,16 +39,26 @@ const Profile= ()=>{
             </div>
 
             <div>
-            <img src="/images/edit.png"className="edit" alt=""/>
-                <input type="text" placeholder="edit_profile"  className="edpro" readOnly="true"/>
+
+            <img src="/images/edit.png"  className="edit" alt=""/>
+         
+            <button  > 
+                    Edit profile
+            </button>
+           
+            
+                {/* <input type="text" placeholder="edit_profile"  className="edpro" readOnly="true" /> */}
+
+               
             </div>
 
             <div>
                 <div className="phone">
+                    
                     <div className="sim">Phone</div> 
 
                     <img src="/images/phone.png"className="phon" alt=""/>
-                    <input type="text" placeholder="0717867280" readOnly="true" className="phonenum"/>
+                    <input type="text" placeholder="0717867280" readOnly="true" id="random" className="phonenum" const />
                     
                 </div>
             </div>
@@ -48,7 +68,7 @@ const Profile= ()=>{
                     <div className="sim">Email</div> 
 
                     <img src="/images/email.png"className="mail" alt=""/>
-                    <input type="text" placeholder="wanadamu@gmail.com" readOnly="true" className="mailnum"/>
+                    <input type="text" placeholder="wanadamu@gmail.com" readOnly="false" className="mailnum"/>
                     
                 </div>
             </div>

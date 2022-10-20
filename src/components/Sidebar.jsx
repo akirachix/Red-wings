@@ -45,7 +45,7 @@ const Sidebar = () => {
               onClick={() => setSelected(index)}
             >
             <a href={item.path}  style={{textDecoration:"none"}} > 
-              <item.icon />
+              {/* <item.icon /> */}
               <span>{item.heading}</span>
               
             </a>

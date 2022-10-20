@@ -16,21 +16,24 @@
 .Table td,
 
 th {
- 
+  /* margin-top: 20%; */
   border: none !important;
   background-color: pink
+  
   
  
 }Table td,
 
 .Table td{
   margin-left: -20%;
+
   align-items: center;
 
 }
 
 React-Dashboard
 .Table:first-child {
+  
   
   border-radius: 0.7rem !important;
  
@@ -47,7 +50,7 @@ React-Dashboard
   
 }
 h3{
-  margin-top: 30%;
+  margin-top: 3%;
 
 }
 

@@ -1,5 +1,4 @@
-/* .RightSide{
-    display: flex;
+.RightSide{
     flex-direction: column;
     width: 95%;
     justify-content: space-evenly;
@@ -36,4 +35,7 @@
             margin-top: 40%;
             
             }
+}
+/* h3{
+    margin-top: 9%;
 } */
