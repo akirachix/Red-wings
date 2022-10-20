@@ -26,8 +26,6 @@ urlpatterns = [
     path('/', include("SMSapp.urls")),
     path('api/',include('api.urls'))
     
-    
-
 ]
 
 

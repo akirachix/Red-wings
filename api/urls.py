@@ -3,7 +3,9 @@ from rest_framework import routers
 from .views import RequestViewset
 from blooddonation.models import Request
 from .views import DonorViewSet
+from .views import NewUserViewSet
 from blooddonation.models import Donor
+from blooddonation.models import NewUser
 
 
 
@@ -13,8 +15,8 @@ from blooddonation.models import Donor
 
 router=routers.DefaultRouter()
 router.register(r'Request',RequestViewset,basename=Request)
-router=routers.DefaultRouter()
 router.register(r"Donor",DonorViewSet,basename=Donor)
+router.register(r'NewUser',NewUserViewSet,basename=NewUser)
 
 
 urlpatterns=[

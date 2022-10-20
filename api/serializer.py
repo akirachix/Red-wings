@@ -1,6 +1,7 @@
+# from dataclasses import fields
 from rest_framework import serializers
-from blooddonation.models import Request
-from blooddonation.models import Donor
+from blooddonation.models import NewUser, Request,Donor
+
 
 
 # User Serializer
@@ -15,6 +16,12 @@ class DonorSerializer(serializers.ModelSerializer):
         model=Donor
         fields=("first_name","last_name","address","email","phone_number","age","blood_type","last_time_donated")
 
+class NewUserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=NewUser
+        fields= ("email","password")
+        
+        
 # Register Serializer
 # class RegisterSerializer(serializers.ModelSerializer):
 #     class Meta:

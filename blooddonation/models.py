@@ -27,10 +27,9 @@ class Request(models.Model):
     date=models.DateField()
     time=models.TimeField()
 
-class Statistic(models.Model):
-    year=models.IntegerField()
-    donors=models.IntegerField()
-
+class NewUser(models.Model):
+    email = models.EmailField()
+    password = models.CharField(max_length=6)
 
 
 

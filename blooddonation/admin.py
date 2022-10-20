@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Donor,Notification, Request,Statistic
+from .models import Donor,Notification, Request,NewUser
 
 # Register your models here.
 class DonorAdmin(admin.ModelAdmin):
@@ -19,7 +19,7 @@ class RequestAdmin(admin.ModelAdmin):
     search_fields=("name", "blood_type","recipient","time","date")
 admin.site.register(Request, RequestAdmin)
 
-class StatisticAdmin(admin.ModelAdmin):
-    list_display=("year", "donors")
-    search_fields=("year", "donors")
-admin.site.register(Statistic, StatisticAdmin)
+class NewUserAdmin(admin.ModelAdmin):
+    list_display=("email", "password")
+    search_fields=("email", "password")
+admin.site.register(NewUser, NewUserAdmin)
