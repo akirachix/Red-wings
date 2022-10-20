@@ -23,3 +23,5 @@ class NewUserAdmin(admin.ModelAdmin):
     list_display=("email", "password")
     search_fields=("email", "password")
 admin.site.register(NewUser, NewUserAdmin)
+
+

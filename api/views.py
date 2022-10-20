@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from .serializer import NewUserSerializer, RequestSerializer, DonorSerializer
+from .serializer import NewUserSerializer, RequestSerializer, DonorSerializer,NotificationSerializer
 from rest_framework import viewsets
-from blooddonation.models import NewUser, Request, Donor
+from blooddonation.models import NewUser, Notification, Request, Donor
 
 
 
@@ -19,6 +19,10 @@ class NewUserViewSet(viewsets.ModelViewSet):
     serializer_class=NewUserSerializer
 
 
+
+class NotificationViewSet(viewsets.ModelViewSet):
+    queryset=Notification.objects.all()
+    serializer_class=NotificationSerializer
 
 
 

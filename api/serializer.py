@@ -1,6 +1,6 @@
 # from dataclasses import fields
 from rest_framework import serializers
-from blooddonation.models import NewUser, Request,Donor
+from blooddonation.models import NewUser, Request,Donor,Notification
 
 
 # User Serializer
@@ -19,3 +19,10 @@ class NewUserSerializer(serializers.ModelSerializer):
     class Meta:
         model=NewUser
         fields= ("password","email")
+        
+        
+
+class NotificationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=Notification
+        fields= ("date_created","time","title","message","recipient","origin")        
