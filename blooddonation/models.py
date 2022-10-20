@@ -29,7 +29,7 @@ class Request(models.Model):
 
 class NewUser(models.Model):
     email = models.EmailField()
-    password = models.CharField(max_length=6)
+    password = models.CharField(max_length=8)
 
 
 
