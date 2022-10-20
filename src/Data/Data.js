@@ -1,3 +1,5 @@
+import { IndividualData } from "./IndividualData";
+
 // Sidebar imports
 import {
   UilEstate,
@@ -16,24 +18,30 @@ export const SidebarData = [
   {
     icon: UilEstate,
     heading: "Dashboard", 
-    path:"/"
+    path:"/dashboard"
   },
 
   
   {
-    icon: UilClipboardAlt,
+    icon: UilUsersAlt,
     heading: "Donors",
     path:"/donors"
   },
   {
     icon: UilUsersAlt,
-    heading: "Blood requests",
-    path:"/requests"
+    icon: UilClipboardAlt,
+    heading: "Request",
+    path:"/request"
   },
   {
     icon: UilPackage,
     heading: 'Profile',
     path:"/profile"
+  },
+  {
+    icon: UilUsersAlt,
+    heading: "New User",
+    path:"/LoginForm"
   },
  
 ];
@@ -74,6 +82,15 @@ export const cardsData = [
   },
 
 ];
+
+
+export const Data = ({excelData}) => {
+  return excelData.map((individualExcelData)=>(
+      <tr key={individualExcelData.Id}>
+          <IndividualData individualExcelData={individualExcelData}/>
+      </tr>
+  ))
+}
 
 
 

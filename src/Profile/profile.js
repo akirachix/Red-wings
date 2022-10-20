@@ -3,14 +3,8 @@ import "./profile.css";
 
 const Profile= ()=>{
     return(
-        
-
-        
-      
         <div className="profile">
-
             <div className="head">
-               
                     <img src="/images/noti.png"className="noti " alt=""  />
                     <div className="two">
                     <img src="/images/sttings.png"className="set" alt=""/>
@@ -21,18 +15,14 @@ const Profile= ()=>{
                 <h2>Donors</h2>
                 <p>Admin Profile</p>
             </div>
-            
             <img src="/images/wana.png"className="wana" alt=""/>
-
             <div className="about">
                 Wanadamu<br/> admin@redwing
             </div>
-
             <div>
             <img src="/images/edit.png"className="edit" alt=""/>
                 <input type="text" placeholder="edit_profile"  className="edpro" readOnly="true"/>
             </div>
-
             <div>
                 <div className="phone">
                     <div className="sim">Phone</div> 
@@ -49,35 +39,24 @@ const Profile= ()=>{
 
                     <img src="/images/email.png"className="mail" alt=""/>
                     <input type="text" placeholder="wanadamu@gmail.com" readOnly="true" className="mailnum"/>
-                    
                 </div>
             </div>
 
             <div>
                 <div className="add">
                     <div className="sim">Address</div> 
-
                     <img src="/images/location.png"className="adds" alt=""/>
-                    <input type="text" placeholder="Nairobi Karen" readOnly="true"  className="adress"/>
-                    
+                    <input type="text" placeholder="Nairobi Karen" readOnly="true"  className="adress"/> 
                 </div>
             </div>
-
-
-            
             <div>
                 <div className="web">
                     <div className="sim">Website</div> 
 
                     <img src="/images/web.png"className="webs" alt="" />
-                    <input type="" placeholder="https://hapakenya.com-wanadamu" readOnly="true"  className="webname" />
-                    
-                    
-                    
+                    <input type="" placeholder="https://hapakenya.com-wanadamu" readOnly="true"  className="webname" />    
                 </div>
             </div>
-
-
             <div>
                 <div className="bio">
                     <div className="sim">Bio</div> 
@@ -86,14 +65,7 @@ const Profile= ()=>{
                     
                 </div>
             </div>
-
-           
-
-           
-        </div>
-      
-        
-       
+        </div> 
     )
 }
 

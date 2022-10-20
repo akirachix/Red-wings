@@ -12,15 +12,19 @@ function createData(name, location, date, blood_type) {
   return { name, location, date, blood_type };
 }
 
+
+
 const rows = [
+  
+  
   createData("Charity Kishoiyan","Nairobi", "2nd.3.2029", "A-"),
   createData("Gumato Roba", "Kinangop", "13th.10.2020", "AB"),
   createData("Lucy Karimi", "Marsabit", "2nd.11.2021", "A+"),
   createData("Speria Njeri","Meru", "12th.10.2022", "O"), 
   createData("Joyce Wanjiku","Narok", "12th.10.2022", "B"),
-
-
+  
 ];
+
 
 export default function BasicTable() {
   return (
@@ -44,7 +48,7 @@ export default function BasicTable() {
               {rows.map((row) => (
                 <TableRow
                   key={row.name}
-                  sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+                  sx={{ "&:last-child td, &:last-child th": { border: 0, } }}
                 >
                   <TableCell component="th" scope="row">
                     {row.name}

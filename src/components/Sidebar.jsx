@@ -49,9 +49,6 @@ const Sidebar = () => {
               <span>{item.heading}</span>
               
             </a>
-         
-          
-
             </div>
            
           );
