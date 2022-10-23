@@ -8,7 +8,7 @@ from datetime import datetime
 # Create your models here.
 
 class Donor(models.Model):
-    first_name = models.CharField(max_length=25)
+    name = models.CharField(max_length=25)
     last_name = models.CharField(max_length=15)
     address = models.TextField()
     email = models.EmailField()

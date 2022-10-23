@@ -15,8 +15,8 @@ admin.site.register(Notification, NotificationAdmin)
 
 
 class RequestAdmin(admin.ModelAdmin):
-    list_display=("first_name","location", "blood_type","number_of_prints","phone_number","action","time","date")
-    search_fields=("first_name","location", "blood_type","number_of_prints","phone_number","action","time","date")
+    list_display=("name","location", "blood_type","number_of_prints","phone_number","action","time","date")
+    search_fields=("name","location", "blood_type","number_of_prints","phone_number","action","time","date")
 admin.site.register(Request, RequestAdmin)
 
 class NewUserAdmin(admin.ModelAdmin):
