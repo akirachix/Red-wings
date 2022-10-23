@@ -7,7 +7,7 @@ from blooddonation.models import NewUser, Request,Donor,Notification
 class RequestSerializer(serializers.ModelSerializer):
     class Meta:
         model = Request
-        fields = ('name', 'blood_type', 'date','time')
+        fields = ('first_name', 'location', 'blood_type','number_of_prints','phone_number','action','time','date')
         
         
 class DonorSerializer(serializers.ModelSerializer):

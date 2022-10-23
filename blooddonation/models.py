@@ -1,5 +1,9 @@
+from argparse import Action
+import numbers
+from unittest.util import _MAX_LENGTH
 from django.db import models
 from email.policy import default
+from datetime import datetime
 
 # Create your models here.
 
@@ -22,9 +26,13 @@ class Notification(models.Model):
     origin=models.ForeignKey(Donor,on_delete=models.CASCADE,null=True)
 
 class Request(models.Model):
-    name=models.CharField(max_length=15)
+    first_name=models.CharField(max_length=15, null=True)
+    location=models.CharField(max_length=20)
     blood_type=models.CharField(max_length=10)
-    date=models.DateField()
+    number_of_prints=models.PositiveSmallIntegerField()
+    phone_number=models.CharField(max_length=10)
+    action=models.CharField(max_length=10,null=True)
+    date=models.DateTimeField(null=True, blank=True,default=datetime.now)
     time=models.TimeField()
 
 class NewUser(models.Model):

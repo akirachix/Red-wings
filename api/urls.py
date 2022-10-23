@@ -10,11 +10,6 @@ from .views import NotificationViewSet
 from blooddonation.models import Notification
 
 
-
-
-
-
-
 router=routers.DefaultRouter()
 router.register(r'Request',RequestViewset,basename=Request)
 router.register(r"Donor",DonorViewSet,basename=Donor)

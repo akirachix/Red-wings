@@ -1,9 +1,8 @@
 from django.shortcuts import render
 from .serializer import NewUserSerializer, RequestSerializer, DonorSerializer,NotificationSerializer
 from rest_framework import viewsets
+
 from blooddonation.models import NewUser, Notification, Request, Donor
-
-
 
 # Create your views here.
 class RequestViewset(viewsets.ModelViewSet):

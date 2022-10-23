@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blooddonation',
     'SMSapp',
-    'rest_framework',
+    'drf_yasg',
+    'rest_framework'
+   
 ]
 
 MIDDLEWARE = [
@@ -87,7 +89,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'redwingsproject',
-        'USER': 'redwingsprojectuser',
+        'USER': 'redwingsprojectuser2',
         'PASSWORD': 'wings',
         'HOST': 'localhost',
         'PORT': '5432',
