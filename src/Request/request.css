@@ -1,0 +1,64 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  table th,
+  td {
+    border: 2px solid;
+    margin-left: 10%;
+    border-collapse: collapse;
+    width: 100%;
+ 
+    
+    
+  }
+  td {
+    color: #444444;
+    border: 1px solid rgb(22, 21, 21);
+    text-align: left;
+  
+
+    padding: 50px;
+    font-size: 15px;
+    
+  }
+  table {
+    width: 40%;
+    border-collapse: collapse;
+    height: 40px;
+    margin-right: 15%;
+    
+    
+
+  }
+  th {
+    background-color: #FAC1C4;
+   
+  }
+  #Bloodrequest {
+    background-color: #ddd;
+  }
+  #Bloodrequest tr:nth-child(even) {
+    background-color: #ffff;
+  }
+  #Bloodrequest tr:hover {
+    background-color:  #FAC1C4;  }
+  .head {
+    margin-top: -45%;
+    
+
+  }
+   h1 {
+    margin-left: 1%;
+   
+    
+    
+  }
+  .request-icons{
+    margin-top: 13%;
+  }

@@ -1,0 +1,93 @@
+.App {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+table th,
+td {
+    border: 1px solid;
+    padding: 50px;
+    margin-left: 10%;
+    border-collapse: collapse;
+    width: 100%;
+
+    
+}
+.notifications{
+    width: 25px;
+    width: 25px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+td {
+    color: #444444;
+    font-family: sans-serif;
+    border: 1px solid rgb(22, 21, 21);
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+
+}
+table {
+    width: 40%;
+    border-collapse: collapse;
+    height: 40px;
+    margin-top: -1.9%;
+    border-radius: 20px;
+    align-items: center;
+    /* margin-right: 10%; */
+}
+
+h1{
+   margin-top: -5%;
+}
+
+th {
+    background-color: #FAC1C4;
+}
+#Donors {
+    background-color: #ddd;
+    
+    
+}
+#Donors p{
+    /* margin-top: 300px; */
+    padding-right: 20%;
+}
+#Donors tr:nth-child(even) {
+    background-color: #ffff;
+}
+#Donors tr:hover {
+    background-color:  #FAC1C4;
+}
+/* .heading {
+    margin-top: -45%;
+} */
+.heading h1 {
+    font-size: 20px;
+    color: rgb(246, 107, 107);
+    /* margin-top: -60%; */
+    margin-left: 70%;
+}
+/* .form{
+    margin-top: 30px;
+    
+  } */
+  .viewer{
+    background-color: rgb(184, 178, 178);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+    
+
+  }
+  .header-icons{
+    margin-top: 13%;
+    font-size: 20px;
+      }

@@ -1,0 +1,10 @@
+.icons{
+    margin-left: 700px;
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 2%;
+    cursor: pointer;
+    color: black;
+    gap: 1rem;
+
+}
