@@ -1,0 +1,116 @@
+:root {
+    --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+    --pink: #FF919D;
+    --glass: rgba(255, 255, 255, 0.54);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --activeItem: #f799a354;
+}
+.body{
+    display: flex;
+    min-height:100vh;
+    background:white;
+    border-radius: 20px;
+}
+.sidebar{
+    background-color: rgba(217, 88, 88, 0.64);
+    height: 80px; ;
+    width: 40px;
+}
+.sidebar_heading{
+    font-size: 32px;
+    font-family: Roboto;
+    color: red ,black;
+}
+.sidebar_h5{
+    font-size: 24px;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.7);
+}
+.sidebar_icons{
+    color: rgba(0, 0, 0, 0.4);
+    width: 55px;
+    height: 55px;
+}
+.header{
+    background-color: rgba(217, 88, 88, 0.35);
+}
+header h1{
+    font-size:2.5rem;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25%;
+}
+.header_icons{
+    margin-left: 680px;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 6.5%;
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    gap: 1.5rem;
+}
+.card_one {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    outline:none;
+    color: rgba(29, 63, 242, 0.57);
+}
+.card_one h4{
+    color:rgba(29, 63, 242, 0.57); ;
+}
+.card_one_graph{
+    color: rgba(29, 63, 242, 0.28);
+    columns: rgba(210, 22, 22, 0.07);
+}
+.card_two {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    /* outline:none; */
+    color: #000000;
+}
+.card_two h4{
+    color:rgba(210, 22, 22, 0.65);
+}
+.card_two_graph{
+    color: rgba(210, 22, 22, 0.4);
+    columns: rgba(210, 22, 22, 0.07);
+}
+.recent_donors h4{
+    color: #D21616;
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: bold;
+}
+.donor_details h5{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #000000;
+}
+.profile_picture{
+    height:40px ;
+    width: 40px;
+    border-radius: 50%;
+}
+#search_bar{
+    background-color: white;
+    border-radius: 20px;
+    border-color: #000000;
+    padding-left: 20%;
+}
+#input_field::placeholder{
+    background-color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+.table_{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.65);
+}

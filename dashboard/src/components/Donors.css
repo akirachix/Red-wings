@@ -1,0 +1,86 @@
+
+.App {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+table th, td {
+  border: 1px solid;
+  padding: 20px;
+  /* margin-left: 50%; */
+  margin-bottom: -15%;
+  border-collapse: collapse;
+  width: 90%;
+}
+td{
+  color: #444444;
+  border: 1px solid rgb(131, 131, 131);
+  text-align: left;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: -10%;
+}
+table {
+  width: 40%;
+  border-collapse: collapse;
+  height: 10px;
+  margin-top: -10%;
+  margin-left: -40px;
+}
+th{
+  /* margin-top: -20%; */
+  background-color: #FAC1C4;
+  
+}
+#Donors {
+  background-color: white;
+}
+#Donors tr:nth-child(even) {
+  /* background-color: #ffff; */
+  background-color: #EEF1F9;
+}
+
+
+/* #Blooddonors{
+  background-color: #ddd;
+} */
+#Blooddonors tr:nth-child(even){background-color: #ffff;}
+.head{
+margin-top: -45%;
+}
+.head h1{
+margin-left:100%;
+font-size: 20px;
+color: black;
+}
+
+.form label h5{
+margin-bottom: 20%;
+/* margin-left: 13%; */
+
+
+}
+.donors{
+margin-left:100px;
+margin-bottom: -90%;
+font-size: 20px;
+
+/* color: rgb(212, 23, 23); */
+}
+.header-icons{
+color: #000000;
+/* height: 45.23px;
+width: 36.78px; */
+margin-bottom: 22%;
+
+/* margin-left: -40px; */
+}
+.donors h2{
+
+}
+
+

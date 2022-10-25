@@ -20,7 +20,7 @@
       #ffcfd1 51.55%,
       #f3c6f1 90.85%
     );
-    height: 100vh;
+    height: 125vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +150,7 @@
     .sidebar{
       position: fixed;
       z-index: 9;
-      background: #ffe0e0;
+      background: #662525;
       width: 55%;
       padding-right: 1rem;
       height: 100%;
@@ -197,10 +197,10 @@
 
 /* Footer */
 .footer{
-  color: rgb(67, 25, 25);
+  color: rgb(36, 34, 34);
 position: absolute;
 left: 40%;
-margin-top: 45%;
+margin-top: 55%;
   
 }
   
