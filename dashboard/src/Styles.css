@@ -4,21 +4,22 @@
     --black: #242d49;
     --gray: #788097;
     --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
-    --pink: #FF919D;
+    --pink: #db0f27;
     --glass: rgba(255, 255, 255, 0.54);
     --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-    --activeItem: #f799a354;
+    --activeItem: white;
     
   }
   
   .App {
     color: var(--black);
     background: linear-gradient(
-      106.37deg,
-      #ffe1bc 29.63%,
+      /* 106.37deg, */
+      white
+      /* #ffe1bc 29.63%,
       #ffcfd1 51.55%,
-      #f3c6f1 90.85%
+      #f3c6f1 90.85% */
     );
     height: 125vh;
     display: flex;
@@ -55,10 +56,12 @@
   /* sidebar */
   .sidebar {
    /* margin-left: -400%; */
-   width: 140px;
+   width: 260px;
+  
     position: relative;
     padding-top: 4rem;
     transition: all 300ms ease;
+    background-color:  rgba(217, 88, 88, 0.64);
 ;
     
    
@@ -84,6 +87,7 @@
     align-items: center;
     justify-content: center;
     height: 4%;
+    
   }
   .logo > span > span {
     color: var(--pink);
@@ -92,6 +96,7 @@
   .logo > img {
     width: 3rem;
     height: 3rem;
+    margin-left: -5%;
   }
   
   
@@ -128,6 +133,7 @@
   .active {
     background: var(--activeItem);
     margin-left: 0;
+    border-radius: 8px;
   }
   .active::before {
     content: "";
@@ -183,7 +189,7 @@
 /* Header */
 .icons{
  
-  font-size: 30px;
+  font-size: 27px;
   cursor: pointer;
   color: rgb(34, 34, 34);
   gap: 2rem;

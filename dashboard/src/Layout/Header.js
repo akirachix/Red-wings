@@ -8,7 +8,6 @@ export const Header = ({ children }) => {
     return (
 
         <div className="icons">
-
             <FaUserCircle />
             <FaRegSun />
             <FaRegBell />

@@ -21,7 +21,6 @@ const Sidebar = ({ children }) => {
       path: "/"
     },
 
-
     {
       icon: UilClipboardAlt,
       heading: "Donors",
@@ -58,9 +57,7 @@ const Sidebar = ({ children }) => {
         animate={window.innerWidth <= 768 ? `${expanded}` : ''}
       >
         <div className="logo">
-          <span>
-            Red<span>-Wings</span>
-
+          <span>Red<span>-Wings</span>
           </span>
         </div>
 

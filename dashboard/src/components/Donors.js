@@ -1,12 +1,10 @@
-// import React from "react";
 
 import "./Donors.css";
+// import "./global.css";
 import * as XLSX from 'xlsx'
-
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
 
 export const Donors = ({ files, setFiles, removeFile }) => {
         const [isLoading, setIsLoading] = useState(false);

@@ -10,8 +10,8 @@
     border: 1px solid;
     padding: 20px;
    
-    /* margin-bottom: -15%; */
-    /* border-collapse: collapse;
+    margin-bottom: -15%; 
+    border-collapse: collapse;
     width: 90%;
   }
   td{
@@ -48,16 +48,10 @@
   margin-left:100%;
   font-size: 20px;
   color: black;
-  } */
+  } 
   
 
-
-
-
-
-
-
-/* .App {
+ .App {
   
     display: flex;
     justify-content: center;
@@ -103,9 +97,9 @@
   }
 
   .head {
-    margin-top: 10%;
+    margin-top: 30%;
   }
   .head h1 {
-    margin-left: 100%;
+    margin-left: -10%;
     color: black;
-  } */ 
+  } */

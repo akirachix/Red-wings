@@ -34,11 +34,10 @@ export const Request = () => {
     return(
         <div className="donor">
         <div className="head">
-            <h2>Request</h2>
-            <div className="app">
+     <div className="app">
        <h1>Bloodrequests</h1>
- <div className='head'>
         </div>
+ 
  <table id="Bloodrequest">
         <tr>
           <th>First Name</th>
@@ -70,7 +69,7 @@ export const Request = () => {
     </div>
 
 
-    </div>
+    
     );
 }
 export default Request;

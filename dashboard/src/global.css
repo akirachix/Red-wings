@@ -1,8 +1,7 @@
 :root {
     --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
-    --orange: #fca61f;
     --black: #242d49;
-    --gray: #788097;
+    --gray: #828aa3;
     --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
     --pink: #FF919D;
     --glass: rgba(255, 255, 255, 0.54);
@@ -15,16 +14,18 @@
     min-height:100vh;
     background:white;
     border-radius: 20px;
+    
 }
 .sidebar{
-    background-color: rgba(217, 88, 88, 0.64);
+    background-color: rgba(204, 113, 113, 0.64);
     height: 80px; ;
     width: 40px;
+    
 }
 .sidebar_heading{
     font-size: 32px;
     font-family: Roboto;
-    color: red ,black;
+    color: black;
 }
 .sidebar_h5{
     font-size: 24px;
