@@ -75,6 +75,19 @@ export const Donors = ({ files, setFiles, removeFile }) => {
           setSearchInput(e.target.value);
         };
 
+        <form action="/" method="get">
+        <label htmlFor="header-search">
+            <span className="visually-hidden">Search donors</span>
+        </label>
+        <input
+            type="text"
+            id="header-search"
+            placeholder="Search blog posts"
+            name="s" 
+        />
+        <button type="submit">Search</button>
+    </form>
+
 
 
 
@@ -83,7 +96,10 @@ export const Donors = ({ files, setFiles, removeFile }) => {
         <div className="donor">
             <div className="head">
             <div className="donors">
-     {/* <h2>Donors</h2> */}
+        <div className="title">
+        <h2>Donors</h2>
+        </div>
+
    
       {/* <h1>Donors</h1> */}
       <table id="Donors">
