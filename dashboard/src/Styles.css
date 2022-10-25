@@ -185,12 +185,20 @@
  
   font-size: 30px;
   cursor: pointer;
-  color: black;
+  color: rgb(34, 34, 34);
   gap: 2rem;
   display: flex;
   position: absolute;
   left: 75%;
-  margin-top: 4%;
+  margin-top: 6.5%;
+
+  /* margin-left: 680px;
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 6.5%;
+  cursor: pointer;
+  color: rgb(34, 34, 34);
+  gap: 1.5rem; */
 
  
 }

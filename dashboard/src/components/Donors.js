@@ -9,7 +9,6 @@ import axios from 'axios';
 
 
 export const Donors = ({ files, setFiles, removeFile }) => {
-        
         const [isLoading, setIsLoading] = useState(false);
         const [error, setError] = useState();
         const [donors, setDonors] = useState([]);
@@ -80,6 +79,7 @@ export const Donors = ({ files, setFiles, removeFile }) => {
 
 
     return (
+
         <div className="donor">
             <div className="head">
             <div className="donors">

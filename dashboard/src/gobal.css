@@ -8,7 +8,7 @@
     --glass: rgba(255, 255, 255, 0.54);
     --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-    --activeItem: #f799a354;
+    --activeItem: rgba(217, 88, 88, 0.64);
 }
 .body{
     display: flex;
@@ -48,13 +48,14 @@ header h1{
     margin-left: 25%;
 }
 .header_icons{
-    margin-left: 680px;
-    display: flex;
-    font-size: 25px;
-    margin-bottom: 6.5%;
+    font-size: 30px;
     cursor: pointer;
     color: rgb(34, 34, 34);
-    gap: 1.5rem;
+    gap: 2rem;
+    display: flex;
+    position: absolute;
+    left: 75%;
+    margin-top: 4%;
 }
 .card_one {
     background-color: #D9D9D9;
