@@ -1,4 +1,4 @@
-/* .App {
+.App {
     width: 100%;
     height: 200vh;
     display: flex;
@@ -40,10 +40,9 @@
     background-color: #EEF1F9;
   }
   
-  #Bloodreguest  tr:nth-child(even){background-color: #ffff;}
-  .head{
- 
-  }
+  #Bloodreguest  tr:nth-child(even){
+    background-color: #ffff;}
+
   .head h1{
   margin-left:100%;
   font-size: 20px;
@@ -61,14 +60,13 @@
     margin-right: -20%;
     color:red;
   }
-  table th,
+  .Bloodrequest th,
   td {
     border: 1px solid;
-    padding: 20px;
-   
-    margin-bottom: -15%;
+    padding-left: 10%;
     border-collapse: collapse;
-    width: 90%;
+    width: 10%;
+    
   
   }
   td {
@@ -77,14 +75,14 @@
     text-align: left;
     padding: 5px;
     font-size: 15px;
-    margin-top: -10%;
+   
   }
   table {
     width: 40%;
     border-collapse: collapse;
     height: 10px;
-    margin-top: -2%;
-    margin-left: -40px;
+    margin-top:-20%;
+    margin-left: 10%;
   }
   th {
     background-color: #FAC1C4;
@@ -102,4 +100,4 @@
   .head h1 {
     margin-left: -10%;
     color: black;
-  } */
+  }

@@ -92,15 +92,17 @@ export const Donors = ({ files, setFiles, removeFile }) => {
     return (
 
         <div className="donor">
-            <div className="head">
-            <div className="donors">
-        <div className="title">
+           {/* <div className="title">
         <h2>Donors</h2>
-        </div>
-
-   
+        </div> */}
+            <div className="head">
+              
+      <div className="donors">
       {/* <h1>Donors</h1> */}
       <table id="Donors">
+      <div className="title">
+        <h2>Donors</h2>
+        </div>
         <tr>
           <th>First Name</th>
           <th>Last Name</th>
@@ -111,6 +113,8 @@ export const Donors = ({ files, setFiles, removeFile }) => {
           <th>Blood type</th>
           <th>Last time donated</th>
         </tr>
+
+        
         {donors.map((val, key) => {
           return (
             <tr key={key}>
@@ -126,6 +130,7 @@ export const Donors = ({ files, setFiles, removeFile }) => {
           )
         })}
       </table>
+      </div>
       <div className="container">
         <div className='form'>
           <form className='form-group' autoComplete="off"
@@ -140,11 +145,12 @@ export const Donors = ({ files, setFiles, removeFile }) => {
               style={{ marginTop: 5 + 'px' }}>{excelFileError}</div>}
             <button type='submit' className='btn btn-success'
               style={{ marginTop: 5 + 'px' }}>Submit</button>
+              <h5>View Excel file</h5>
           </form>
         </div>
-        <h5>View Excel file</h5>
+        
         </div>
-      </div>
+     
 
 
              

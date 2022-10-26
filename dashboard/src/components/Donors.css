@@ -9,10 +9,10 @@
 }
 table th, td {
   border: 1px solid;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: -15%;
   border-collapse: collapse;
-  width: 90%;
+  width: 10%;
 }
 
 td{
@@ -27,12 +27,13 @@ table {
   width: 40%;
   border-collapse: collapse;
   height: 10px;
-  margin-top: -2%;
-  margin-left: -40px;
+  margin-top: 0%;
+  margin-left: 70%;
 }
 
 th{
   background-color: #FAC1C4;
+  
   
 }
 #Donors {
@@ -54,18 +55,29 @@ font-size: 20px;
 color: black;
 }
 
+
+
 .form label h5{
 margin-bottom: 20%;
 }
 
 .donors{
-margin-left:100px;
-margin-bottom: -90%;
+margin-left:0px;
+margin-top: -44%;
 font-size: 20px;
 }
 
 .title h2{
-  margin-top: -11%;
-  font-size: 33px;
+  margin-top: -30%;
+
 }
+.container form{
+  margin-bottom: -19%;
+  margin-left: 10%;
+
+
+}
+/* .global{
+background-color: black;
+} */
 

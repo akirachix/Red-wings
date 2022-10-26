@@ -59,11 +59,9 @@ const Sidebar = ({ children }) => {
         <div className="logo">
           <span>Red<span>-Wings</span>
           </span>
-        </div>
-
+          </div>
 
         <div className="menu">
-
 
           {SidebarData.map((item, index) => {
             return (
@@ -76,8 +74,6 @@ const Sidebar = ({ children }) => {
                   <span>{item.heading}</span>
 
                 </a>
-
-
 
               </div>
 

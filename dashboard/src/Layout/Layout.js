@@ -2,7 +2,8 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import '../Styles.css'
+import '../Styles.css';
+// import "./MainDash";
 
 
 const Layout = ({ children }) => {
@@ -11,6 +12,8 @@ const Layout = ({ children }) => {
             <Header />
             <Sidebar />
             <Footer />
+            {/* <MainDash/> */}
+            
 
             {children}
 

@@ -6,8 +6,7 @@ import Layout from "./Layout/Layout"
 import Sidebar from './Layout/Sidebar';
 import Footer from './Layout/Footer';
 import Header from './Layout/Header';
-import Maindash from './components/Maindash';
-
+import MainDash from './components/MainDash';
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/request" element={<Request/>}/>
           <Route path="/donors" element={<Donors/>}/>
-          <Route path="/" element={<Maindash/>}/>
+          {/* <Route path="/" element={<Maindash/>}/> */}
           </Routes> 
           
 
