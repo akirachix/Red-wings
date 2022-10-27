@@ -1,10 +1,13 @@
+import './global.css';
 import  { Route, Routes} from "react-router-dom";
-import './App.css'
-import MainDash from './components/MainDash/MainDash';
-import Sidebar from './components/Layout/Sidebar';
-import Request from './Request/request';
-import Donors from './Donors/Donors';
-import Footer from "./components/Footer/Footer";
+import Donors from './Pages/Donors';
+import Request from './Pages/request';
+import Layout from "./Layout/Layout"
+import Sidebar from './Layout/Sidebar';
+import Footer from './Layout/Footer';
+import Header from './Layout/Header';
+import Maindash from './components/MainDash';
+import { Table } from '@mui/material';
 
 
 
@@ -13,24 +16,18 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <div className="AppGlass">
-        <Sidebar/>
-       
-    
+     <div className="AppGlass">
+       <Layout/>
         <Routes>
-          <Route path="/" element={  <MainDash />}/>
           <Route path="/request" element={<Request/>}/>
           <Route path="/donors" element={<Donors/>}/>
-          {/* <Route path="/loginform" element={<LoginForm />}/> */}
-          </Routes> 
-          <Footer/>
-          
-
+          <Route path="/" element={<Maindash/>}/>
+          </Routes>
       </div>
     </div>
   );
 }
-
 export default App;
+
 
 

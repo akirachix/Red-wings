@@ -1,0 +1,61 @@
+/* Donors */
+
+.App{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  table th, td {
+    border: 1px solid;
+    padding: 20px;
+   
+    border-collapse: collapse;
+    width: 90%;
+  }
+  td{
+    color: #444444;
+    border: 1px solid rgb(131, 131, 131);
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10%;
+  }
+  table {
+    width: 40%;
+    border-collapse: collapse;
+    height: 10px;
+    margin-top: 75%;
+    margin-left: -12%;
+  }
+  th{
+    background-color: #FAC1C4;
+  }
+  #Donors {
+    background-color: white;
+  }
+  #Donors tr:nth-child(even) {
+    background-color: #EEF1F9;
+  }
+  #Blooddonors tr:nth-child(even){background-color: #ffff;}
+  .head{
+  margin-top: -45%;
+  }
+  .head h1{
+  margin-left:100%;
+  font-size: 20px;
+  color: black;
+  }
+  .form label h5{
+  margin-bottom: 20%;
+  }
+  .donors{
+  margin-left:100px;
+  margin-bottom: -90%;
+  font-size: 20px;
+  }
+  .title h2{
+    margin-top: -11%;
+    font-size: 33px;
+  }
