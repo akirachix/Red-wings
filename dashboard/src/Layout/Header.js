@@ -6,7 +6,6 @@ import { FaUserCircle, FaRegSun, FaRegBell } from "react-icons/fa";
 export const Header = ({ children }) => {
     
     return (
-
         <div className="icons">
             <FaUserCircle />
             <FaRegSun />

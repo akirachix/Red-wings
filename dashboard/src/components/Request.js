@@ -32,12 +32,15 @@ export const Request = () => {
     return(
         <div className="donor">
         <div className="head">
-     <div className="app">
-       {/* <h1>Bloodrequests</h1> */}
-        </div>
+        
+     {/* <div className="app">
+       
+        </div> */}
  
- <table id="Bloodrequest">
+ <div id="Bloodrequest">
+  <table>
         <tr>
+          
           <th>First Name</th>
           <th>Location</th>
           <th>Blood group</th>
@@ -64,6 +67,7 @@ export const Request = () => {
       </table>
     </div>
 
+    </div>
     </div>
 
 

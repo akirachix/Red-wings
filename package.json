@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "papaparse": "^5.3.2",
     "react-circular-progressbar": "^2.1.0"
   }
 }
