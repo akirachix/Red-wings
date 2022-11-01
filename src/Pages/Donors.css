@@ -28,8 +28,8 @@
     width: 40%;
     border-collapse: collapse;
     height: 10px;
-    margin-top: 50%;
-    margin-left: -2%;
+    margin-top: 52%;
+    margin-left: -9.5%;
   }
   th{
     background-color: #FAC1C4;
@@ -65,4 +65,5 @@
 
   .searchbar{
     margin-left: -7%;
+    margin-top: -1%;
   }

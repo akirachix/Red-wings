@@ -9,6 +9,7 @@ import Header from './Layout/Header';
 import Maindash from './components/MainDash';
 import { Table } from '@mui/material';
 import RightSide from './RightSide/RightSide';
+import Profile from './components/Profile/profile';
 
 
 
@@ -25,6 +26,9 @@ function App() {
           <Route path="/request" element={<Request/>}/>
           <Route path="/donors" element={<Donors/>}/>
           <Route path="/" element={<Maindash/>}/>
+          <Route path="/profile" element={<Profile/>}/>
+
+
           </Routes>
          
       </div>

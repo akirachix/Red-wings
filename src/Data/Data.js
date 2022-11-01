@@ -17,11 +17,11 @@ export const cardsData = [
       },
       barValue: 54.3,
       value: "A+",
-      // png: UilUsdSquare,
+     
       series: [
         {
           name: "request",
-          data: [31, 40, 28, 51, 42, 109, 100],
+          data: [2,1],
         },
       ],
     },
@@ -33,7 +33,7 @@ export const cardsData = [
       },
       barValue: 73,
       value: "A-",
-      // png: UilMoneyWithdrawal,
+      
       series: [
         {
           name: "Donors",

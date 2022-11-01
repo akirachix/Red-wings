@@ -55,34 +55,41 @@
     font-weight: bold;
     font-size: 22px;
     gap: 1rem;
+   
     align-items: center;
     justify-content: center;
     height: 4%;
+    
   }
-  /* .logo > span > span {
-    color: var(--pink);
-  } */
-  /* .logo > img {
+  
+  .logo > span > span {
+    color:#c23748;
+  }
+  .logo > img {
     width: 3rem;
     height: 3rem;
-  } */
-  /* menu */
+  }
   .menu {
-    margin-top: 4rem;
+    margin-top: 5rem;
     display: flex;
+    
+    
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
   }
   .menuItem {
     display: flex;
     align-items: center;
     gap: 1rem;
+  
+    font-weight: 500;
     height: 2.5rem;
     margin-left: 2rem;
     position: relative;
     transition: all 300ms ease;
     border-radius: 0.7rem;
-    font-size: 14px;
+    font-size: 17px;
+    
   }
   .menuItem:hover {
     cursor: pointer;
@@ -151,20 +158,20 @@
 
 /* Header */
 .icons{
-  font-size: 30px;
+  font-size: 27px;
   cursor: pointer;
-  color: black;
+  color: rgb(34, 34, 34);
   gap: 2rem;
   display: flex;
   position: absolute;
-  left: 75%;
-  margin-top: 4%;
+  left: 71%;
+  margin-top: 6.5%;
 }
 
 
 /* Footer */
 .footer{
-  color: rgb(67, 25, 25);
+  color: rgb(1, 0, 0);
 position: absolute;
 left: 45%;
 margin-top: 5%;
@@ -333,12 +340,14 @@ margin-top: 5%;
   .RightSide{
       width: 100%;
       margin-top: 0;
+      
   }
   .RightSide>div{
       display: flex;
       flex-direction: column;
       align-items: center;
   }
+ 
   .mapouter{position:relative;
       text-align:right;
       margin-left: 600px;
@@ -412,7 +421,10 @@ table {
   color: black;
  
 }
-
+h3{
+  margin-left: -36%;
+  font-size: 20px;
+}
 
 
 
@@ -424,7 +436,8 @@ table {
   }
 }
 h1{
-  padding-left: 9%; 
+  padding-left: 1%; 
+  color: rgb(85, 81, 81);
   
 }
 
