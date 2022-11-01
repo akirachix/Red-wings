@@ -1,12 +1,12 @@
-import React from "react";
-import {
-    UilEstate,
-    UilClipboardAlt,
-    UilUsersAlt,
-    UilPackage,UilMoneyWithdrawal,UilUsdSquare
+// import React from "react";
+// import {
+//     UilEstate,
+//     UilClipboardAlt,
+//     UilUsersAlt,
+//     UilPackage,UilMoneyWithdrawal,UilUsdSquare
 
 
-  } from "@iconscout/react-unicons";
+//   } from "@iconscout/react-unicons";
 
 export const cardsData = [
     {
@@ -17,7 +17,7 @@ export const cardsData = [
       },
       barValue: 54.3,
       value: "A+",
-      png: UilUsdSquare,
+      // png: UilUsdSquare,
       series: [
         {
           name: "request",
@@ -33,7 +33,7 @@ export const cardsData = [
       },
       barValue: 73,
       value: "A-",
-      png: UilMoneyWithdrawal,
+      // png: UilMoneyWithdrawal,
       series: [
         {
           name: "Donors",

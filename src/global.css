@@ -2,11 +2,9 @@
     color: var(--black);
     background: linear-gradient(
       106.37deg,
-      #FFE1BC 29.63%,
-      #FFCFD1 51.55%,
-      #F3C6F1 90.85%
+     
     );
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,8 +33,11 @@
   }
   /* sidebar */
   .sidebar {
+    background-color:  rgba(217, 88, 88, 0.64);
+  
+    height: 1050px;
     margin-left: 2%;
-   width: 140px;
+    width: 170px;
     position: relative;
     padding-top: 4rem;
     transition: all 300ms ease;
@@ -58,13 +59,13 @@
     justify-content: center;
     height: 4%;
   }
-  .logo > span > span {
+  /* .logo > span > span {
     color: var(--pink);
-  }
-  .logo > img {
+  } */
+  /* .logo > img {
     width: 3rem;
     height: 3rem;
-  }
+  } */
   /* menu */
   .menu {
     margin-top: 4rem;
@@ -114,13 +115,15 @@
   @media screen and (max-width: 768px) {
     .sidebar{
       position: fixed;
+      /* background: #662525; */
       z-index: 9;
-      background: #FFE0E0;
+      background: #faf7f7;
       width: 55%;
       padding-right: 1rem;
       height: 100%;
     }
     .menuItem>span{
+      
       display: block;
     }
     .logo{
@@ -164,7 +167,7 @@
   color: rgb(67, 25, 25);
 position: absolute;
 left: 45%;
-margin-top: 68%;
+margin-top: 5%;
 }
 
 
@@ -219,6 +222,7 @@ margin-top: 68%;
 /* sideDetail*/
 .detail {
   font-weight: 800;
+  
   font-size: 30px;
   flex: 1;
   display: flex;
@@ -367,17 +371,14 @@ margin-top: 68%;
   margin-right: -20%;
 }
 table th,
-/* td {
-  margin-left: 2%;
-  border: 2px solid;
-  margin-left: 10%;
-  border-collapse: collapse;
-  width: 100%;
-   color: rgb(20, 19, 19);
-} */
 td {
   
-  background-color: pink;
+ font-weight: bolder;
+   color: rgb(20, 19, 19);
+} 
+td {
+  
+  /* background-color: pink; */
   font-size: 15px;
 
 }
@@ -394,16 +395,16 @@ table {
 }
 
 #Bloodrequest {
+  background-color: #ffff;
   margin-top: 50%;
  
 }
 #Bloodrequest tr:nth-child(even) {
-  background-color: #1546ce;
-}
+  background-color: #EEF1F9}
 
 .head {
   margin-top: -45%;
- 
+
   
 }
 .head h1 {
@@ -414,14 +415,6 @@ table {
 
 
 
-/* maindash */
-/* .MainDash{
-  padding-top: 1rem; 
-  display: flex; 
-  flex-direction: column;
-  justify-content: space-evenly;
-  
-} */
 
 @media screen and (max-width: 1400px) {
   .MainDash{
@@ -431,9 +424,7 @@ table {
   }
 }
 h1{
-  padding-left: 9%;
-
-  
+  padding-left: 9%; 
   
 }
 

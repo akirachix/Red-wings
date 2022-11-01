@@ -8,6 +8,8 @@ import Footer from './Layout/Footer';
 import Header from './Layout/Header';
 import Maindash from './components/MainDash';
 import { Table } from '@mui/material';
+import RightSide from './RightSide/RightSide';
+
 
 
 
@@ -18,11 +20,13 @@ function App() {
     <div className="App">
      <div className="AppGlass">
        <Layout/>
+       
         <Routes>
           <Route path="/request" element={<Request/>}/>
           <Route path="/donors" element={<Donors/>}/>
           <Route path="/" element={<Maindash/>}/>
           </Routes>
+         
       </div>
     </div>
   );

@@ -21,24 +21,27 @@
     padding: 5px;
     font-size: 15px;
     margin-top: 10%;
+
+    
   }
   table {
     width: 40%;
     border-collapse: collapse;
     height: 10px;
-    margin-top: 75%;
-    margin-left: -12%;
+    margin-top: 50%;
+    margin-left: -2%;
   }
   th{
     background-color: #FAC1C4;
   }
   #Donors {
-    background-color: white;
-  }
-  #Donors tr:nth-child(even) {
+    background-color: #EEF1F9  }
+
+
+  .Donors tr:nth-child(even) {
     background-color: #EEF1F9;
   }
-  #Blooddonors tr:nth-child(even){background-color: #ffff;}
+  #Donors tr:nth-child(even){background-color: #ffff;}
   .head{
   margin-top: -45%;
   }
@@ -58,4 +61,8 @@
   .title h2{
     margin-top: -11%;
     font-size: 33px;
+  }
+
+  .searchbar{
+    margin-left: -7%;
   }
