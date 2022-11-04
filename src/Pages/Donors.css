@@ -1,69 +1,164 @@
-/* Donors */
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#components-table-demo-drag-sorting tr.drop-over-downward td {
+  border-bottom: 2px dashed #1890FF;
+}
+#components-table-demo-drag-sorting tr.drop-over-upward td {
+  border-top: 2px dashed #DBC594;
+} */
+.ant-table-column-sorters {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+.page{
+  /* column-gap: 10%; */
+  row-gap: -3%;
+  margin-top: 30%;
+  margin-left: -20%;
 
-.App{
-    width: 100%;
-    height: 200vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  table th, td {
-    border: 1px solid;
-    padding: 20px;
-   
-    border-collapse: collapse;
-    width: 90%;
-  }
-  td{
-    color: #444444;
-    border: 1px solid rgb(131, 131, 131);
-    text-align: left;
-    padding: 5px;
-    font-size: 15px;
-    margin-top: 10%;
+}
+.editbuton button{
+  margin-left: -225%;
+  /* width: 40px; */
+ }
+/*  
+ .editbuton button{
+  margin-left: -225%;
+  /* width: 40px; */
+ /* }  */
 
-    
-  }
-  table {
-    width: 40%;
-    border-collapse: collapse;
-    height: 10px;
-    margin-top: 52%;
-    margin-left: -9.5%;
-  }
-  th{
-    background-color: #FAC1C4;
-  }
-  #Donors {
-    background-color: #EEF1F9  }
+.name button{
+  height: 20px;
+  width: 80px;
+  margin-left: 30%;
+
+}
+.name input{
+  margin-top: 3%;
+  height: 25px;
+  padding-left: 8%;
+  margin-left: -5%;
+
+}
 
 
-  .Donors tr:nth-child(even) {
-    background-color: #EEF1F9;
-  }
-  #Donors tr:nth-child(even){background-color: #ffff;}
-  .head{
-  margin-top: -45%;
-  }
-  .head h1{
-  margin-left:100%;
-  font-size: 20px;
-  color: black;
-  }
-  .form label h5{
-  margin-bottom: 20%;
-  }
-  .donors{
-  margin-left:100px;
-  margin-bottom: -90%;
-  font-size: 20px;
-  }
-  .title h2{
-    margin-top: -11%;
-    font-size: 33px;
-  }
+.editall title{
+  margin-left: 20%;
 
-  .searchbar{
-    margin-left: -7%;
-    margin-top: -1%;
-  }
+
+}
+.editall button{
+  height: 20px;
+  width: 25px;
+  /* margin-left: -6px; */
+ 
+
+}
+
+/* #Bloodrequest table   {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-left: 10%;
+
+ 
+}
+td {
+  color: #444444;
+  border: 1px solid rgb(131, 131, 131);
+
+  padding-left: 27px;
+  font-size: 15px;
+}
+table {
+  width: 40%;
+ 
+  height: 5px;
+  margin-top: -30%;
+  margin-left: 4%;
+}
+th {
+  background-color: #FAC1C4;
+}
+#Bloodrequest {
+  background-color: #ffff;
+}
+#Bloodrequest tr:nth-child(even) {
+  background-color: #EEF1F9;
+} 
+ */
+
+
+/* #Bloodrequest table   {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-left: 10%;
+
+ 
+}
+td {
+  color: #444444;
+  border: 1px solid rgb(131, 131, 131);
+
+  padding-left: 27px;
+  font-size: 15px;
+}
+table {
+  width: 40%;
+ 
+  height: 5px;
+  margin-top: -30%;
+  margin-left: 4%;
+}
+th {
+  background-color: #FAC1C4;
+}
+#Bloodrequest {
+  background-color: #ffff;
+}
+#Bloodrequest tr:nth-child(even) {
+  background-color: #EEF1F9;
+} */
+/*
+.Donors{
+  margin-left: 10%;
+}
+.donor{
+  margin-right: 8%;
+}
+#Donors {
+  background-color: #ffff;
+}
+#Donors tr:nth-child(even) {
+  background-color: #EEF1F9;
+} */
+/*
+.tables{
+margin-top: 35%;
+margin-left: 2%;
+height: 15%;
+padding: -10%;
+}
+.input{
+  margin-left: -48%;
+  margin-top: 65%;
+}
+.searchbox{
+  margin-top: -82%;
+  margin-left: -48%;
+  border-radius: 90px;
+}
+.searchbox h3{
+color: black;
+margin-top: -8%;
+}
+ */

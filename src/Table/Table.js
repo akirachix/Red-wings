@@ -49,10 +49,7 @@ return (
           <th>Blood_type</th>
           <th>Age</th>
          
-
-          
-          
-          
+ 
         </tr>
          {request.map(item => {
           return (

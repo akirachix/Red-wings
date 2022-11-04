@@ -12,7 +12,7 @@
   }
   .AppGlass {
     display: grid;
-    height: 97%;
+    height: 100%;
     width: 97%;
     background: var(--glass);
     border-radius: 2rem;
@@ -35,12 +35,12 @@
   .sidebar {
     background-color:  rgba(217, 88, 88, 0.64);
   
-    height: 1050px;
-    margin-left: 2%;
-    width: 170px;
-    position: relative;
-    padding-top: 4rem;
-    transition: all 300ms ease;
+    height: 180vh;
+    margin-left: 0%;
+    width: 150px;
+    position: left;
+    /* padding-top: 4rem; */
+    /* transition: all 300ms ease; */
 ;
   }
   .donor{
@@ -88,7 +88,7 @@
     position: relative;
     transition: all 300ms ease;
     border-radius: 0.7rem;
-    font-size: 17px;
+    font-size: 18px;
     
   }
   .menuItem:hover {
@@ -101,11 +101,11 @@
   }
   .active {
     background: var(--activeItem);
-    margin-left: 0;
+    margin-left: 10;
   }
   .active::before {
     content: "";
-    width: 8px;
+    width: 12px;
     height: 100%;
     background: var(--pink);
     margin-right: calc(1rem - 8px);
@@ -164,17 +164,17 @@
   gap: 2rem;
   display: flex;
   position: absolute;
-  left: 71%;
-  margin-top: 6.5%;
+  left: 80%;
+  margin-top: 2%;
 }
 
 
 /* Footer */
 .footer{
-  color: rgb(1, 0, 0);
+color: rgb(1, 0, 0);
 position: absolute;
 left: 45%;
-margin-top: 5%;
+margin-top: -40%;
 }
 
 
@@ -246,9 +246,10 @@ margin-top: 5%;
 .detail > span:nth-child(3) {
   font-size: 12px;
 }
-.Table{
+/* .Table{
   margin-top: -26%;
-}
+  
+} */
 
 /* ExpandedCard */
 .ExpandedCard {
@@ -377,35 +378,45 @@ margin-top: 5%;
 
 }
 .App h1{
-  margin-right: -20%;
+  margin-right: -25%;
+ 
 }
 table th,
 td {
   
  font-weight: bolder;
    color: rgb(20, 19, 19);
+   
 } 
 td {
   
   /* background-color: pink; */
+  
   font-size: 15px;
+  
 
 }
-table {
+/* table {
   width: 400px;
+  margin-left: 3%;
   border-collapse: collapse;
-  height: 40px;
- 
-}
+  height: 40px; 
+} */
+
+
 #Bloodrequest{
-  margin-left: 1%;
+  margin-left: 3%;
   width: 820px;
+ 
+ 
  
 }
 
 #Bloodrequest {
   background-color: #ffff;
-  margin-top: 50%;
+  margin-top: 38%;
+  
+  /* margin-left: 80%; */
  
 }
 #Bloodrequest tr:nth-child(even) {
@@ -432,6 +443,7 @@ h3{
   .MainDash{
       justify-content:flex-start;
       margin-top: 4rem;
+      /* margin-left:7%; */
       
   }
 }
@@ -450,10 +462,12 @@ h1{
 
 /* request */
 .request{
-  margin-top: 7%;
+  /* margin-top: %; */
   margin-left: -1%;
 }
-
+tr{
+  margin-left: 100%;
+}
 
 
 

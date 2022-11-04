@@ -1,0 +1,115 @@
+
+
+.page{
+  font-size: 14px;
+  margin-left: 30%;
+  gap: 2%;
+}
+#Bloodrequest{
+  margin-left: -5%;
+}
+.name{
+  margin-top: -40%;
+}
+.table{
+  margin-left: -20%;
+}
+.searchbar{
+margin-left: 30px;
+}
+.search{
+padding-left: 0px;
+padding-bottom: 10px;
+padding-top: 10px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: 7%;
+}
+
+ 
+  table th, td {
+    border: 1px solid;
+    margin-bottom: 15%;
+    width: 90%;
+  }
+  td{
+    color: #444444;
+    border: 1px solid rgb(131, 131, 131);
+    font-size: 15px;
+  }
+  table {
+    width: 30%;
+    height: 60px;
+    margin-top: 10%;
+    margin-left: -40px;
+  }
+  th{
+    background-color: #FAC1C4;
+    height: 33px;
+  }
+  #Bloodreguest {
+    background-color: white;
+  }
+  #Bloodreguest  tr:nth-child(even) {
+    background-color: #EEF1F9;
+  }
+  #Bloodreguest  tr:nth-child(even){
+    background-color: #ffff;}
+  .head h1{
+  margin-left:100%;
+  color: black;
+  }
+  .App h1{
+    margin-right: -20%;
+    color:red;
+  }
+  #Bloodrequest table   {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 10%;
+    padding: 4px;
+  
+  }
+
+  td {
+    color: #444444;
+    border: 1px solid rgb(131, 131, 131);
+    padding-left: 49px;
+    font-size: 14px;
+    /* margin-top: 10%; */
+  }
+
+
+  table {
+    width: 25%;
+    border-collapse: collapse;
+    height: 40px;
+    margin-left: -48%;
+    padding-right: -10px;
+    
+   } 
+
+
+
+
+  
+  /* th {
+    background-color: #FAC1C4;
+  }
+  #Bloodrequest {
+    background-color: #ffff;
+  }
+  #Bloodrequest tr:nth-child(even) {
+    background-color: #EEF1F9;
+  }
+  .head {
+    margin-top: 32%;
+  }
+  .head h1 {
+    margin-left: -10%;
+    color: black;
+  }
+  #Bloodrequest table{
+    margin-left: 15%;
+    padding-left: 20%;
+  }   */

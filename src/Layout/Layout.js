@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import '../global.css'
-import RightSide from "../RightSide/RightSide";
+import {RightSide} from "../RightSide/RightSide";
 
 
 

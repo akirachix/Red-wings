@@ -2,10 +2,10 @@ import React from "react";
 import Cards from "./Cards/Cards";
 import RightSide from "../RightSide/RightSide";
 import Table from "../Table/Table";
-import Header from "../Layout/Header";
+// import Header from "../Layout/Header";
 
 
-const MainDash = ({}) => {
+const MainDash = () => {
   <h3>Dashboard</h3>
 
   return (
@@ -21,8 +21,6 @@ const MainDash = ({}) => {
       <RightSide/>
 
 
-
-      
     </div>
 
   );

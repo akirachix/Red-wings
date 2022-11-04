@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import TextField from '@material-ui/core/TextField';
+import Autocomplete from '@material-ui/lab/Autocomplete';
 import '../global.css';
+import './Request.css'
 import axios from 'axios';
 export const Request = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState();
     const [request, setRequest] = useState([]);
+    const [search, setsearch] = useState("");
+    const keys = ["first_name", "location"]
     useEffect(() => {
         getRequest()
         console.log(request)
@@ -26,12 +31,26 @@ export const Request = () => {
             setIsLoading(false);
         }
     };
+    const getSearchOutput = (value) =>{
+      const filtereddata= request.filter((item) =>
+      keys.some((key) => item[key].toLowerCase().includes(value))
+      );
+      console.log(filtereddata,'jjjjj')
+      setRequest(filtereddata)
+    };
     return (
-        <div className="request">
-            <div className="head">
-                <h2>Request</h2>
-            </div>
-            <table id="Bloodrequest">
+    <div className="searchbar">
+    <h2>Blood Request</h2>
+    <input
+    type="text"
+    placeholder='Search'
+    className='search'
+    onChange={(e) =>getSearchOutput(e.target.value)}
+    />
+  <div className="request">
+      <div className="head">
+      <div className="request">
+      <table id="Bloodrequest">
                 <tr>
                     <th>First Name</th>
                     <th>Location</th>
@@ -58,6 +77,18 @@ export const Request = () => {
                 })}
             </table>
         </div>
+        </div>
+      </div>
+      </div>
     );
 }
 export default Request;
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+form{
+    margin-left: -150%;
+    margin-top: 40%;
+    background-color: pink;
+    border-radius: 5%;
+    padding: 4px 6px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 380px;
+}
+.main-container{
+    background-color: white;
+}
+.container{
+    margin-top: 20px;
+    height: 40px;
+    width: 350px;
+    border-radius: 12px;
+    border: solid 2px black;
+    margin-left: 15%;
+}
+button{
+    background-color: pink;
+    border-radius: 20%;
+    /* border-color: black; */
+    width: 80px;
+    height: 30px;
+    margin-top: 10%;
+    margin-left: 60%;
+}
