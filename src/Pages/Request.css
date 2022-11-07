@@ -40,21 +40,20 @@ margin-bottom: 7%;
   table {
     width: 30%;
     height: 60px;
-    margin-top: 10%;
+    margin-bottom: -460%;
     margin-left: -40px;
   }
   th{
     background-color: #FAC1C4;
-    height: 33px;
+    height: 46px;
   }
   #Bloodreguest {
     background-color: white;
+    /* background-color: #EEF1F9 */
   }
-  #Bloodreguest  tr:nth-child(even) {
-    background-color: #EEF1F9;
-  }
+  
   #Bloodreguest  tr:nth-child(even){
-    background-color: #ffff;}
+    background-color: rgb(201, 190, 190);}
   .head h1{
   margin-left:100%;
   color: black;
@@ -66,8 +65,8 @@ margin-bottom: 7%;
   #Bloodrequest table   {
     border: 1px solid;
     border-collapse: collapse;
-    margin-left: 10%;
-    padding: 4px;
+    padding: 2px;
+    /* background-color: #EEF1F9 */
   
   }
 
@@ -76,7 +75,7 @@ margin-bottom: 7%;
     border: 1px solid rgb(131, 131, 131);
     padding-left: 49px;
     font-size: 14px;
-    /* margin-top: 10%; */
+    /* margin-left: 10%; */
   }
 
 
@@ -84,10 +83,15 @@ margin-bottom: 7%;
     width: 25%;
     border-collapse: collapse;
     height: 40px;
-    margin-left: -48%;
+    margin-left: -44%;
     padding-right: -10px;
+  
     
    } 
+   table tr:nth-child(even){
+    background-color: #f3f3f3
+
+   }
 
 
 

@@ -36,18 +36,20 @@ return (
     <div className="app">
  <div className='head'>
  <h1>Recent Donors</h1>
+ 
 
   </div>
-        
-        
+
 
  <table id="Bloodrequest">
         <tr>
           <th>First Name</th>
+          <th>Last Name</th>
           <th>Email</th>
           <th>Phone_number</th>
           <th>Blood_type</th>
           <th>Age</th>
+          <th>Last_time_donated</th>
          
  
         </tr>
@@ -55,13 +57,13 @@ return (
           return (
             <tr>
               <td>{item.first_name}</td>
+              <td>{item.last_name}</td>
               <td>{item.email}</td>
               <td>{item.phone_number}</td>
               <td>{item.blood_type}</td>
               <td>{item.age}</td>
-              
+              <td>{item.last_time_donated}</td>
 
-             
             </tr>
           )
         })}

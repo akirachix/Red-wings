@@ -1,7 +1,7 @@
 .App {
     color: var(--black);
     background: linear-gradient(
-      106.37deg,
+      /* 106.37deg, */
      
     );
     
@@ -15,8 +15,8 @@
     height: 100%;
     width: 97%;
     background: var(--glass);
-    border-radius: 2rem;
-    gap: 16px;
+    border-radius: 1rem;
+    gap: 14px;
     grid-template-columns: 11rem auto 20rem;
     overflow: hidden;
   }
@@ -35,12 +35,11 @@
   .sidebar {
     background-color:  rgba(217, 88, 88, 0.64);
   
-    height: 180vh;
+    height: 170vh;
     margin-left: 0%;
-    width: 150px;
+    width: 170px;
     position: left;
-    /* padding-top: 4rem; */
-    /* transition: all 300ms ease; */
+  
 ;
   }
   .donor{
@@ -55,6 +54,8 @@
     font-weight: bold;
     font-size: 22px;
     gap: 1rem;
+    margin-top: 14px;
+    margin-left: 20PX;
    
     align-items: center;
     justify-content: center;
@@ -68,11 +69,11 @@
   .logo > img {
     width: 3rem;
     height: 3rem;
+    
   }
   .menu {
     margin-top: 5rem;
     display: flex;
-    
     
     flex-direction: column;
     gap: 4rem;
@@ -164,8 +165,8 @@
   gap: 2rem;
   display: flex;
   position: absolute;
-  left: 80%;
-  margin-top: 2%;
+  left: 85%;
+  margin-top: 4%;
 }
 
 
@@ -246,10 +247,7 @@ margin-top: -40%;
 .detail > span:nth-child(3) {
   font-size: 12px;
 }
-/* .Table{
-  margin-top: -26%;
-  
-} */
+
 
 /* ExpandedCard */
 .ExpandedCard {
@@ -378,10 +376,10 @@ margin-top: -40%;
 
 }
 .App h1{
-  margin-right: -25%;
+  /* margin-right: -25%; */
  
 }
-table th,
+ table th,
 td {
   
  font-weight: bolder;
@@ -390,50 +388,40 @@ td {
 } 
 td {
   
-  /* background-color: pink; */
-  
   font-size: 15px;
   
 
 }
-/* table {
-  width: 400px;
-  margin-left: 3%;
-  border-collapse: collapse;
-  height: 40px; 
-} */
 
 
 #Bloodrequest{
-  margin-left: 3%;
-  width: 820px;
- 
- 
- 
-}
+  margin-left: -13%;
+  width: 800px;
+} 
 
 #Bloodrequest {
   background-color: #ffff;
   margin-top: 38%;
-  
-  /* margin-left: 80%; */
+
  
 }
 #Bloodrequest tr:nth-child(even) {
   background-color: #EEF1F9}
+ 
 
 .head {
   margin-top: -45%;
+ 
 
   
-}
+} 
 .head h1 {
   
   color: black;
  
 }
 h3{
-  margin-left: -36%;
+  /* margin-right: -56%; */
   font-size: 20px;
 }
 
@@ -442,15 +430,13 @@ h3{
 @media screen and (max-width: 1400px) {
   .MainDash{
       justify-content:flex-start;
-      margin-top: 4rem;
-      /* margin-left:7%; */
-      
+      margin-top: 4rem;   
   }
 }
 h1{
-  padding-left: 1%; 
+  /* padding-left: 5%;  */
   color: rgb(85, 81, 81);
-  
+
 }
 
 @media screen and (max-width: 800px)
@@ -460,14 +446,15 @@ h1{
   }
 }
 
-/* request */
-.request{
-  /* margin-top: %; */
-  margin-left: -1%;
+.request table{
+  margin-left: 4%;
+  padding-left: 10px;
+  margin-bottom: 10%;
+ 
 }
-tr{
+/* tr{
   margin-left: 100%;
-}
+} */
 
 
 
