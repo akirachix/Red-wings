@@ -3,7 +3,7 @@ import Cards from "./Cards/Cards";
 import RightSide from "../RightSide/RightSide";
 import Table from "../Table/Table";
 // import Header from "../Layout/Header";
-
+import "./profile/Maindash.css"
 
 const MainDash = () => {
   <h3>Dashboard</h3>
@@ -15,10 +15,11 @@ const MainDash = () => {
      
       {/* <Header/> */}
       </div>
-    {/* <h1>Dashboard</h1> */}
+    <h1>Dashboard</h1>
       <Cards />
       <Table />
       <RightSide/>
+      
 
 
     </div>

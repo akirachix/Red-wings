@@ -1,7 +1,8 @@
 .App {
     color: var(--black);
+   
     background: linear-gradient(
-      /* 106.37deg, */
+    
      
     );
     
@@ -13,7 +14,7 @@
   .AppGlass {
     display: grid;
     height: 100%;
-    width: 97%;
+    /* width: 97%; */
     background: var(--glass);
     border-radius: 1rem;
     gap: 14px;
@@ -35,10 +36,11 @@
   .sidebar {
     background-color:  rgba(217, 88, 88, 0.64);
   
-    height: 170vh;
-    margin-left: 0%;
-    width: 170px;
+    height: 197vh;
+    margin-left: 1%;
+    width: 175px;
     position: left;
+    border-radius: 20px
   
 ;
   }
@@ -98,7 +100,7 @@
   .menu .menuItem:last-child {
     position: absolute;
     bottom: 2.3rem;
-    width: 100%;
+    /* width: 100%; */
   }
   .active {
     background: var(--activeItem);
@@ -175,7 +177,7 @@
 color: rgb(1, 0, 0);
 position: absolute;
 left: 45%;
-margin-top: -40%;
+/* margin-top: 3%; */
 }
 
 
@@ -255,6 +257,7 @@ margin-top: -40%;
   width: 60%;
   height: 70vh;
   z-index: 9;
+
   left: 13rem;
   border-radius: 1rem;
   display: flex;
@@ -266,16 +269,20 @@ margin-top: -40%;
 .ExpandedCard > span:nth-of-type(1) {
   color: white;
   font-size: 26px;
+
   font-weight: bold;
   text-shadow: 0px 0px 15px white;
 }
 .ExpandedCard > span:nth-of-type(2) {
   color: rgb(236, 236, 236);
   font-size: 15px;
+  
+
 }
 
 .chartContainer {
   width: 70%;
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -283,6 +290,7 @@ margin-top: -40%;
     top: 2rem;
     height: 45vh;
     left: 6rem;
+    
   }
 }
 
@@ -292,6 +300,7 @@ margin-top: -40%;
     height: 50%;
     left: 25px;
     width: 80%;
+
   }
 }
 
@@ -300,17 +309,24 @@ margin-top: -40%;
 .Cards {
   display: flex;
   gap: 10px;
+  /* margin-left: 9%; */
+
 }
 .parentContainer{
-  width: 410px;
+  width: 500px;
+  margin-left: 4%;
+
 }
 
 @media screen and (max-width: 1200px) {
   .Cards{
     flex-direction: column;
+    
+
   }
   .parentContainer{
     height: 9rem;
+    
   }
 }
 
@@ -321,108 +337,74 @@ margin-top: -40%;
   }
 }
 
-/* Rightside */
 
-.RightSide{
-  flex-direction: column;
-  width: 95%;
-  justify-content: space-evenly;
-}
-@media screen and (max-width: 1200px) {
-  .RightSide{
-      justify-content: flex-start;
-      margin-top: 3rem;
-  }
-}
-@media screen and (max-width: 768px)
-{
-  .RightSide{
-      width: 100%;
-      margin-top: 0;
-      
-  }
-  .RightSide>div{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
- 
-  .mapouter{position:relative;
-      text-align:right;
-      margin-left: 600px;
-      margin-bottom: 30%;
-  }
-  .gmap_canvas {
-      overflow:hidden;
-      background:none!important;
-      height:500px;width:600px;}
-      .map {
-          /* margin-left: 600px; */
-          margin-bottom: 20%;
-          margin-top: 40%;
-          
-          }
-}
-
+ */
 
 
 /* table */
 .App {
-  width: 100%;
-  height: 100vh;
+  /* width: 100%; */
+  height: 1300px;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-.App h1{
-  /* margin-right: -25%; */
- 
-}
+
+
  table th,
 td {
   
  font-weight: bolder;
+
    color: rgb(20, 19, 19);
    
 } 
 td {
   
-  font-size: 15px;
   
+  font-size: 15px;
+}
+.tab{
+  margin-left: 9%;
 
+  
 }
 
 
-#Bloodrequest{
-  margin-left: -13%;
-  width: 800px;
-} 
+
 
 #Bloodrequest {
   background-color: #ffff;
-  margin-top: 38%;
+  margin-top: 44%;
+  width: 970px;
+  
+  
 
  
 }
 #Bloodrequest tr:nth-child(even) {
+  
   background-color: #EEF1F9}
  
 
 .head {
+  
   margin-top: -45%;
  
 
   
 } 
 .head h1 {
-  
+
+
   color: black;
  
 }
 h3{
   /* margin-right: -56%; */
   font-size: 20px;
+
 }
 
 
@@ -452,9 +434,7 @@ h1{
   margin-bottom: 10%;
  
 }
-/* tr{
-  margin-left: 100%;
-} */
+
 
 
 

@@ -40,7 +40,7 @@ return (
 
   </div>
 
-
+<div className='tab'>
  <table id="Bloodrequest">
         <tr>
           <th>First Name</th>
@@ -68,6 +68,7 @@ return (
           )
         })}
       </table>
+      </div>
     </div>
   );
 }
