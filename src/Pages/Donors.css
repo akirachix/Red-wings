@@ -15,10 +15,10 @@ code {
 }
 #components-table-demo-drag-sorting tr.drop-over-upward td {
   border-top: 2px dashed #DBC594;
-} 
+}
 .ant-table-column-sorters {
   display: inline-flex !important;
-  align-items: center !important;
+  align-items: left !important;
 }
 .page{
   /* column-gap: 10%; */
@@ -26,73 +26,66 @@ code {
   column-gap: 2;
   margin-top: 3%;
   margin-left: -20%;
-
 }
 .editbuton button{
-  margin-left: -85%;
+  margin-left: -80%;
+  height: 30px;
+  width: 45px;
+  /* padding-left: 0px; */
+/* border-radius: 20%; */
   /* width: 40px; */
  }
-
- .globalsearchbutton{
-  margin-top: -2%;
-  margin-left: -80%;
-  /* width: 20px; */
+ .globalsearchbutton button{
+  margin-top: 10%;
+  margin-left: 3%;
+  height: 30px;
+  width: 52px;
  }
- .Popconfirm button{
+ /* .Popconfirm button{
   margin-left: 50%;
-
+ } */
+ .savecancelbuton button{
+  margin-left: -200%;
+  height: 30px;
+  width: 40px;
  }
- .savecancelbuton{
-  margin-left: -10%;
+ .savecancelbuton {
+  width: -60%;
  }
-
-
 .name button{
   height: 20px;
   width: 40px;
   margin-left: 20%;
-
-} 
+}
  .name input{
   margin-top: 3%;
-  height: 25px;
-  padding-left: 8%;
-  margin-left: -5%;
-
+  height: 45px;
+  padding-left: 12%;
+  margin-left: -2%;
 }
-
-
 .editall title{
   margin-left: 20%;
-
-
 }
 .editall button{
   height: 20px;
-  width: 25px;
-
+  width: 10px;
 }
 Button{
-  width: 90px;
+  width: 50px;
 }
-
 /* #Bloodrequest table   {
   border: 1px solid;
   border-collapse: collapse;
   margin-left: 10%;
-
- 
 }
 td {
   color: #444444;
   border: 1px solid rgb(131, 131, 131);
-
   padding-left: 27px;
   font-size: 15px;
 }
 table {
   width: 40%;
- 
   height: 5px;
   margin-top: -30%;
   margin-left: 4%;
@@ -105,26 +98,22 @@ th {
 }
 #Bloodrequest tr:nth-child(even) {
   background-color: #EEF1F9;
-} 
+}
  */
-/* 
+/*
  #Bloodrequest table   {
   border: 1px solid;
   border-collapse: collapse;
   margin-left: 10%;
-
- 
 }
 td {
   color: #444444;
   border: 1px solid rgb(131, 131, 131);
-
   padding-left: 27px;
   font-size: 15px;
 }
 table {
   width: 40%;
- 
   height: 5px;
   margin-top: -30%;
   margin-left: 4%;
@@ -137,7 +126,7 @@ th {
 }
 #Bloodrequest tr:nth-child(even) {
   background-color: #EEF1F9;
-} 
+}
 .Donors{
   margin-left: 10%;
 }
@@ -149,8 +138,7 @@ th {
 }
 #Donors tr:nth-child(even) {
   background-color: #EEF1F9;
-} 
-
+}
 .tables{
 margin-top: 35%;
 margin-left: 2%;

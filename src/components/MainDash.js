@@ -6,7 +6,7 @@ import Table from "../Table/Table";
 import "./profile/Maindash.css"
 
 const MainDash = () => {
-  <h3>Dashboard</h3>
+  // <h3>Dashboard</h3>
 
   return (
     <div className="MainDash">
@@ -15,8 +15,9 @@ const MainDash = () => {
      
       {/* <Header/> */}
       </div>
-    <h1>Dashboard</h1>
+    <h2>Dashboard</h2>
       <Cards />
+      <h2>Recent Blood Donors</h2>
       <Table />
       <RightSide/>
       

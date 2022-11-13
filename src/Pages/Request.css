@@ -12,7 +12,7 @@
   margin-top: -40%;
 }
 .table{
-  margin-left: -20%;
+  margin-left: -25%;
 }
 .searchbar{
 margin-left: 30px;
@@ -31,9 +31,11 @@ margin-bottom: 7%;
     border: 1px solid;
     margin-bottom: 15%;
     width: 90%;
+    margin-left: 22%;
   }
   td{
     color: #444444;
+    
     border: 1px solid rgb(131, 131, 131);
     font-size: 15px;
   }
@@ -46,6 +48,7 @@ margin-bottom: 7%;
   th{
     background-color: #FAC1C4;
     height: 46px;
+
   }
   #Bloodreguest {
     background-color: white;

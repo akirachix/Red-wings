@@ -5,7 +5,6 @@ import { motion, AnimateSharedLayout } from "framer-motion";
 import { UilTimes } from "@iconscout/react-unicons";
 import Chart from "react-apexcharts";
 
-
 // parent Card
 
 const Card = (props) => {
