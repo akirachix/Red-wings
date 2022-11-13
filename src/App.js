@@ -10,25 +10,23 @@ import Maindash from './components/MainDash';
 import { Table } from '@mui/material';
 import RightSide from './RightSide/RightSide';
 import Profile from './components/profile/Profile';
-
-
-
+import SpecificRequest from './Pages/SpecificRequest';
+import PreLoader3 from './components/PreLoader3';
 
 function App() {
   return (
     <div className="App">
      <div className="AppGlass">
+    
        <Layout/>
-
-      
-       
+       <PreLoader3/>
+    
         <Routes>
           <Route path="/request" element={<Request/>}/>
+          <Route path="/request/:id" element={<SpecificRequest/>}/>
           <Route path="/donors" element={<Donors/>}/>
           <Route path="/" element={<Maindash/>}/> 
-
            </Routes>
-         
       </div>
     </div>
   );

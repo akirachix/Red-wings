@@ -1,29 +1,42 @@
+
 import React, { useEffect, useState } from 'react';
+import {useNavigate} from 'react-router-dom';
+
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
+
+import axios from 'axios';
+
 import '../global.css';
 import './Request.css'
-import axios from 'axios';
+
 export const Request = () => {
+    const keys = ["first_name", "location"]
+
+    const navigate=useNavigate()
+
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState();
     const [request, setRequest] = useState([]);
     const [search, setsearch] = useState("");
-    const keys = ["first_name", "location"]
+
     useEffect(() => {
         getRequest()
         console.log(request)
     }, []);
+
     const getRequest = async () => {
         setIsLoading(true);
         try {
             const response = await axios.get("https://serene-journey-13143.herokuapp.com/apis/Request/",);
             setRequest(response.data)
             console.log(response.data)
+
             if (response.status !== 200) {
                 throw new Error(`Something went wrong!: ${response.status}`);
             }
             const data = await response.data.json();
+            console.log(data);
             if (data) setRequest(data);
         } catch (error) {
             setError(error);
@@ -31,6 +44,7 @@ export const Request = () => {
             setIsLoading(false);
         }
     };
+
     const getSearchOutput = (value) =>{
       const filtereddata= request.filter((item) =>
       keys.some((key) => item[key].toLowerCase().includes(value))
@@ -38,6 +52,7 @@ export const Request = () => {
       console.log(filtereddata,'jjjjj')
       setRequest(filtereddata)
     };
+
     return (
     <div className="searchbar">
     <h2>Blood Request</h2>
@@ -60,11 +75,12 @@ export const Request = () => {
                     <th>Date</th>
                     <th>Time</th>
                     <th>Action</th>
+                    <th>Invite</th>
                 </tr>
                 {request.map(item => {
                     return (
                         <tr>
-                            <td>{item.first_name}</td>
+                            <td style={{textDecoration:"underline"}} onClick={()=>{navigate(item.id)}}>{item.first_name} </td>
                             <td>{item.location}</td>
                             <td>{item.blood_type}</td>
                             <td>{item.number_of_prints}</td>
