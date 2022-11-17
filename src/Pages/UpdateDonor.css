@@ -1,0 +1,52 @@
+#input2 {
+    margin-top: 8px;
+    /* margin-left: 3%; */
+    width: 105%;
+    height: 6%;
+    border-radius: 8px;
+    border: 1px solid ;
+    font-size: 16px;
+    margin-left: -5%;
+  }
+  .form{
+    margin-left: 20%;
+    margin-top: 20%;
+    background-color: rgb(241, 205, 200);
+    height: 55%;
+    padding: 17%;
+    border-radius: 10px;
+  }
+  .error{
+    font-size: 17px;
+    margin-top: -4px;
+  }
+  #top-names{
+    margin-right:280px;
+    font-weight: 210;
+    font: bold;
+    width: 50%;
+    margin-left: -5%;
+  }
+  #top-name{
+    margin-right:210px;
+    font-weight: 220;
+    font: bold;
+    margin-left: -5%;
+  }
+  .btn{
+    margin-left: 57%;
+    margin-top: 0%;
+  }
+  label{
+    margin-left: -5%;
+    margin-top: 3%;
+  }
+  .form h2{
+    margin-left: -5%;
+    margin-top: -3%;
+
+  }
+
+
+
+

@@ -1,0 +1,179 @@
+.container{
+    background-color: white;
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 10%;
+    height: 130vh;
+  }
+  .form
+  {
+    margin-top: 5%;
+  }
+  h2{
+    margin-left: 175%;
+    width: 100%;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  #name{
+    margin-left: 34%;
+    width: 80%;
+  }
+  input {
+    margin-top: 10px;
+    margin-left: 33%;
+    width: 325%;
+    height: 5%;
+    border-radius: 10px;
+    border: 1px solid ;
+    font-size: 15px;
+  }
+  #child{
+    margin-top: 15%;
+    margin-left: 34%;
+  }
+  #dt
+  {
+    height: 6vh;
+  }
+  .date_of_birth
+  {
+    width: 100%;
+    height: 100vh;
+  }
+  #children
+  {
+    margin-top: -283%;
+    margin-left: 34%;
+    width: 100%;
+  }
+  #dates
+  {
+    margin-left: 34%;
+    margin-top: 15%;
+    width: 80%;
+  }
+  #date
+  {
+    margin-top: -282%;
+    margin-left: 35%;
+    width: 80%;
+  }
+  .btn{
+    margin-left: 328%;
+    margin-top: 30%;
+  }
+  #button
+  {
+    height: 5vh;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #05277C;
+    color: white;
+  }
+  /* #full{
+    margin-bottom: -230%;
+    margin-left: 40%;
+  } */
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   * {
+      margin: 0;
+  } */
+  /* .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .holder{
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .header{
+    margin-left: 100%;
+    margin-top: -16%;
+    /* text-align: center; */
+      /* width: 80%; */
+      /* text-align: center; */
+      /* margin-left: 50%; */
+  /* .header h2{
+    margin-top: 10px;
+  } */
+  /* .container{
+    width: 70%;
+    display:flex;
+    margin-left: 15%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    margin-top: 52px;
+  }
+  .show{
+      width: 50px;
+      border: none;
+      background-color: white;
+  }
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 4em auto;
+    margin-left: 20%;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+  .error{
+    color: red;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  #top-names{
+    margin-right:280px;
+    font-weight: 210;
+    font: bold;
+    width: 50%;
+  }
+  #top-name{
+    margin-right:210px;
+    font-weight: 220;
+    font: bold;
+  }
+  #top-namess{
+    margin-right:188px;
+    font-weight: 200;
+    font: bold;
+  }
+  #form   input, .btn{
+    border: 1px solid #05277C;
+    padding: .9em 1em;
+    border-radius: 15px;
+    background-color: none;
+    margin-top: -10px;
+  }
+  #form > input:focus{
+    outline: none;
+  }
+  #form > .btn{
+    background-color: #05277C;
+    color: #E9ECEF;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .flex{
+    display: flex;
+    gap: 1em;
+  }
+  .flex-col{
+    flex-direction: column;
+  }
+  .register .holder{
+    margin: auto;
+    padding: 3em 0;
+  } */
+  /* @media screen and (min-width: 860px)  {
+    .register .col-2 img{
+      display: initial;
+    }
+  } */

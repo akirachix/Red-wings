@@ -73,6 +73,19 @@ code {
 Button{
   width: 50px;
 }
+.addbutton{
+  margin-top: -6%;
+  margin-left: 88%;
+  height: 30px;
+  width: 52px;
+}
+
+
+
+
+
+
+
 /* #Bloodrequest table   {
   border: 1px solid;
   border-collapse: collapse;

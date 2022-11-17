@@ -2,8 +2,6 @@
     color: var(--black);
    
     background: linear-gradient(
-    
-     
     );
     
     display: flex;
@@ -412,11 +410,11 @@ h3{
 @media screen and (max-width: 1400px) {
   .MainDash{
       justify-content:flex-start;
-      margin-top: 4rem;   
+      margin-top: 2rem;   
   }
 }
 h1{
-  /* padding-left: 5%;  */
+  
   color: rgb(85, 81, 81);
 
 }

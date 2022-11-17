@@ -4,7 +4,7 @@ import '../global.css';
 export const Footer = () => {
     return (
         <div className="footer">
-            <p>Copyright @redwings</p>
+            <p>Copyright @redwings "Donate blood and save lives"</p>
         </div>
     );
 };

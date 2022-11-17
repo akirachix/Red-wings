@@ -7,6 +7,8 @@ import Highlighter from "react-highlight-words";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import update from "immutability-helper";
+import { Link } from 'react-router-dom';
+
 // import { CSVLink } from "react-csv";
 // import ReactLoading from "react-loading";
 import './Donors.css'
@@ -410,6 +412,11 @@ const DataTable = (Loading) => {
         </DndProvider>
       </Form>
       </div>
+
+      {/* <div className="addbutton">
+      <Link to='/Pages/Adddonor'><a><button className='add' type="button">Add Donor</button></a></Link>
+      </div> */}
+
     </div>
   );
 };

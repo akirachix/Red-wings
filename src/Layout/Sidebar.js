@@ -26,7 +26,13 @@ const Sidebar = ({ children }) => {
       icon: UilUsersAlt,
       heading: "Blood requests",
       path: "/request"
+    },
+    {
+      icon: UilPackage,
+      heading: "Update Donor",
+      path: "/updatedonor"
     }
+
   ]
   const [selected, setSelected] = useState();
   const [expanded, setExpaned] = useState(true)
@@ -41,7 +47,7 @@ const Sidebar = ({ children }) => {
   console.log(window.innerWidth)
   return (
     <>
-      <div className="bars" style={expanded ? { left: '60%' } : { left: '5%' }} onClick={() => setExpaned(!expanded)}>
+      <div className="bars" onClick={() => setExpaned(!expanded)}>
         <UilBars />
       </div>
       <div className='sidebar'

@@ -4,7 +4,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 import '../global.css'
-import RightSide from "../RightSide/RightSide";
+import RightSide from "../components/RightSide/RightSide";
 
 
 
@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
             <Header />
             <Sidebar />
             <Footer />
-            <RightSide/>
             {children}
         </div>
     );

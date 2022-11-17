@@ -18,7 +18,7 @@
 margin-left: 30px;
 }
 .search{
-padding-left: 0px;
+padding-left: 10px;
 padding-bottom: 10px;
 padding-top: 10px;
 border-radius: 10px;
@@ -69,8 +69,7 @@ margin-bottom: 7%;
     border: 1px solid;
     border-collapse: collapse;
     padding: 2px;
-    /* background-color: #EEF1F9 */
-  
+    
   }
 
   td {
@@ -80,7 +79,6 @@ margin-bottom: 7%;
     font-size: 14px;
     /* margin-left: 10%; */
   }
-
 
   table {
     width: 25%;

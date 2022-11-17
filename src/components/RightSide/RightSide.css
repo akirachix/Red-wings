@@ -27,7 +27,7 @@
   .mapouter{position:relative;
       text-align:right;
       margin-bottom: 30%;
-      margin-top: -12%;
+      margin-top: -7%;
   }
   .gmap_canvas {
       overflow:hidden;
@@ -36,6 +36,6 @@
       .map {
           /* margin-left: 600px; */
           margin-bottom: 20%;
-          margin-top: 40%;
+          margin-top: 30%;
           }
 }
