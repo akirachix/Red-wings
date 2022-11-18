@@ -1,11 +1,12 @@
 from django.db import models
-
-from argparse import Action
-import numbers
-from unittest.util import _MAX_LENGTH
-from django.db import models
-from email.policy import default
+# from argparse import Action
+# import numbers
+# from unittest.util import _MAX_LENGTH
+# from django.db import models
+# from email.policy import default
 from datetime import datetime
+
+
 # Create your models here.
 class Donor(models.Model):
     first_name = models.CharField(max_length=26)
@@ -14,8 +15,11 @@ class Donor(models.Model):
     email = models.EmailField()
     phone_number = models.CharField(max_length=10)
     age = models.IntegerField()
-    blood_type = models.CharField(max_length=15)
+    blood_type = models.CharField(max_length=10)
     last_time_donated = models.DateField()
+
+    def __str__(self):
+        return f'{"first_name"} {"last_name"} {"address"} {"email"} {"phone_number"} {"age"} {"blood_type"} {"last_time_donated"}'
 
 class Notification(models.Model):
     date_created=models.DateField()
@@ -23,7 +27,7 @@ class Notification(models.Model):
     title=models.CharField(max_length=30)
     message=models.CharField(max_length=250)
     recipient=models.CharField(max_length=40)
-    origin=models.ForeignKey(Donor,on_delete=models.CASCADE,null=True)
+    origin=models.ForeignKey(Donor,on_delete=models.CASCADE, null=True)
 
 class Request(models.Model):
     first_name=models.CharField(max_length=15, null=True)
@@ -34,7 +38,10 @@ class Request(models.Model):
     action=models.CharField(max_length=10,null=True)
     date=models.DateTimeField(null=True, blank=True,default=datetime.now)
     time=models.TimeField()
+    id = models.CharField(max_length=20,primary_key=True)
+
 
 class NewUser(models.Model):
     email = models.EmailField()
     password = models.CharField(max_length=8)
+
