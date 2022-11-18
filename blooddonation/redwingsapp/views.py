@@ -5,7 +5,7 @@ from redwingsapp import templates
 from venv import create
 # import pandas as pd
 from django.shortcuts import render
-from dateutil.parser import parse
+# from dateutil.parser import parse
 # Create your views here.easy on me adele
 import csv, io
 from django.contrib.auth.decorators import permission_required
