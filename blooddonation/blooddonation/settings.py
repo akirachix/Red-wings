@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import django_heroku
+django_heroku.settings(locals())
+# import pandas as pd
+# import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,6 +44,8 @@ INSTALLED_APPS = [
     'redwingsapp',
     'rest_framework',
     'apis'
+    
+    
 ]
 
 MIDDLEWARE = [
@@ -86,8 +91,8 @@ WSGI_APPLICATION = 'blooddonation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'redwingsproject',
-        'USER': 'redwings',
+        'NAME': 'reds',
+        'USER': 'reduser',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': 5432,

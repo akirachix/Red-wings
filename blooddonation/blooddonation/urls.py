@@ -15,8 +15,28 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.conf.urls import include
+import imp
+from xml.etree.ElementInclude import include
+from django.contrib import admin
+from django.urls import path
+from django.urls import include, path
+# from blooddonation.redwingsapp.models import Donor
+
+# from redwingsapp.views import UploadFileView
+
+
+# from blooddonation.apis.views import UploadFileView
+
+# from django.urls import redwingsapp
+from redwingsapp.views import contact_upload
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('apis/',include('apis.urls'))
+    path('apis/',include('apis.urls')),
+    # path('upload/', include('redwingsapp.urls')),
+    path('upload_csv/', contact_upload, name="contact_upload"),
+    # path('upload/', Donor.as_view(), name="contact_upload")
+
 ]
